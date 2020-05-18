@@ -61,6 +61,22 @@
 ** My superpower is that I am very good at helping people to discover and develop their superpower(s).
 
 * Worried optimist
+** I do not like surprises
 * Q&A
 * Resources
-
+* Quotes, Statements, ...
+** You cannot change the trajectory of a stationary object
+** Never waste a good crisis
+** 80% of something is better than a 100% of nothing
+** Ever tried? Ever failed? No matter! Try again!! Fail better!!!
+** People before Process and Problem/Project/Product
+** Let's build a place where great engineers can do their best work
+   - Where talent meets passion and purpose
+   - Where ... Mastery, Autonomy, Purpose
+   - People have a growth mindset
+** Hire
+   - Nice, decent, intelligent people
+   - That like to solve problems (and are good at it)
+   - With good judgement (and a lot of common sense)
+   - And that are passionate about software engineering and writing code
+   (and that have a growth mindset)
