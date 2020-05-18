@@ -1,0 +1,66 @@
+#+title: Roland
+#+subtitle: THE User Manual
+#+date: <2020-05-15>
+#+author: Roland Tritsch
+#+email: roland@tritsch.org
+#+options: timestamp:t date:nil title:t author:t
+#+options: toc:nil num:nil
+#+reveal_theme: beige
+#+reveal_init_options: width:"60%"
+
+* Manager
+** Building functional teams and functional systems
+** Making engineers grow and users smile
+
+* Software Engineer
+** Functional Programming
+** SaaS Backends
+** Shared-Nothing Micro-Services Architectures
+   - Using events to propagate state
+
+* Husband and Father
+
+  [[file:./images/family.png]]
+
+* Believes, Values, ...
+
+  [[file:./images/believes.png]]
+
+* MBTI - Leia & Darth
+
+  #+REVEAL_HTML: <div class="column" style="float:left; width: 50%">
+    - ENTJ & ESTJ
+      - Extroverted (strong)
+      - Thinking (strong)
+      - Judging (strong)
+      - Sensing/Intuition (50/50)
+    - The Executive & The Supervisor
+    - Princess Leia & Darth Vader
+  #+REVEAL_HTML: </div>
+
+  #+REVEAL_HTML: <div class="column" style="float:right; width: 50%"><img src="./images/mbti.png"/></div>
+
+* MBTI - Bob & Tom
+
+  #+REVEAL_HTML: <div class="column" style="float:left; width: 50%"><img src="./images/bob.png"/></div>
+
+  #+REVEAL_HTML: <div class="column" style="float:right; width: 50%"><img src="./images/tom.png"/></div>
+
+* DISC Profile
+* Leadership
+
+   Leadership comes down to believing so strongly in the future you want that your enthusiasm, confidence, and drive in getting there infects those around you and the reality of today transforms into that vision of tomorrow through shared work and sacrifice.
+
+   Max Levchin
+
+* Introduction
+  - What do you do? Role? Responsibilities?
+  - Why are you here?
+  - What is your superpower?
+* Superpower
+** My superpower is that I am very good at helping people to discover and develop their superpower(s).
+
+* Worried optimist
+* Q&A
+* Resources
+

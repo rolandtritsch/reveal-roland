@@ -1,2 +1,1 @@
-# reveal-roland
-THE user manual
+# THE User Manual
