@@ -83,12 +83,30 @@
 
   #+REVEAL_HTML: <div class="column" style="float: right; width: 40%"><img src="./images/raise.png" width="80%"/></div>
 
-* Q&A
+* (Naturally) I am/can be ...
+** ... loud & obnoxious ...
+** ... impatient & hot-tempered ...
+** ... and I need to use some of my energy to moderate that!
+** Means ...
+
+  #+REVEAL_HTML: <div class="column" style="float: left; width: 50%">
+    ... when I am running low on energy or when I am tired ... sooner or later/occasionally ... somebody has to sing a lullaby!!!
+  #+REVEAL_HTML: </div>
+
+  #+REVEAL_HTML: <div class="column" style="float: right; width: 50%"><img src="./images/hulk.png"></div>
+
+* I (also) need help with ...
+** ... diving into the details!
+** ... turning a strategy into tactics!
+** ... listening (talking too much)!
+** ... going slow (to go faster)!
 * Little known fact
 
   #+REVEAL_HTML: <img src="https://live.staticflickr.com/5301/5601446934_1d3c807612_z.jpg" width="60%"/>
    
-* Resources
+* Q&A
+* Appendix
+** Resources
 
    - [[http://www.tritsch.org/about/][About]]
    - [[https://www.linkedin.com/in/rolandtritsch/][Linked-In]]
@@ -97,7 +115,7 @@
    - [[https://twitter.com/innolocity][Innolocity]]
    - [[https://www.instagram.com/theextremedigitalnomad/][TheExtremeDigitalNomad]]
 
-* I like ...
+** I like ...
 ** Grit, showing up, hard work (doing what's right, not what's easy/popular), ...
 ** Talking to each other, not about each other, ...
 ** No surprises
@@ -139,11 +157,11 @@
    - Build what the customer wants/needs and build what's possible
    - Do *not* build faster horses
 ** Cameradery, we are in it together, we have each others back, ...
-* I am ...
+** I am ...
 ** A worried optimist
 ** The nicest slave driver you have ever worked for
 ** WIP :) 
 ** ...
-* I will ...
+** I will ...
 ** Keep on giving you work until you say stop (and that is ok)
 ** ...
