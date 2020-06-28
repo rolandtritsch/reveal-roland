@@ -116,52 +116,60 @@
    - [[https://www.instagram.com/theextremedigitalnomad/][TheExtremeDigitalNomad]]
 
 ** I like ...
-** Grit, showing up, hard work (doing what's right, not what's easy/popular), ...
-** Talking to each other, not about each other, ...
-** No surprises
+*** Grit, showing up, hard work (doing what's right, not what's easy/popular), ...
+*** Talking to each other, not about each other, ...
+*** No surprises
    - I will miss the deadline next week vs. I will miss the deadline tomorrow
-** Ownership, accountability, ... 
+*** Ownership & accountability
+   - Say what you do & Do what you say
    - I f...ed-up ... and here is what I am going to do about it
-** Being on time, being reliable, say-what-you-do/do-what-you-say, making promises and keeping them (and if not ... appologize, learn ... and move on), ...
-** Productive friction, disagree and commit, radical candor, ...
-** Do the right thing and do it right (with urgency)
-** You cannot change the trajectory of a stationary object - Andrew O'Sullivan
-** Never waste a good crisis - Winston Churchill
-** 80% of something is better than a 100% of nothing
-** Ever tried? Ever failed? No matter! Try again!! Fail better!!! - Samuel Beckett
-** People before Process and Problem/Project/Product - Walt Brown
-** Building a place where great engineers can do their best work
+*** Being on time, being reliable, say-what-you-do/do-what-you-say, making promises and keeping them (and if not ... appologize, learn ... and move on), ...
+*** Productive friction, disagree and commit, radical candor, ...
+*** Do the right thing and do it right (with urgency)
+*** Building a place where great engineers can do their best work
    - Where ... talent meets passion and purpose
    - Where ... mastery meets autonomy and purpose
    - Where ... accountability meets autonomy and authority
-** Good hiring ...
+*** Good hiring
    - Nice/decent, humble/ego-less, intelligent people
    - That like to solve problems (and are good at it)
    - With good judgement (and a lot of common sense)
    - And good desicion making skills (using groups of people)
    (and that are passionate about software engineering and writing good, maintainable code)\\
    (and that have a [[https://www.youtube.com/watch?v=KUWn_TJTrnU][growth mindset]])
-** Strategic thinking/planning
+*** Strategic thinking/planning
    - Develop a sense of direction
      - ... for the next N steps/time-units
    - Execute on the first step/time-unit
    - Rinse and repeat
    (if you have no idea, where you want to go ...\\
    ... every direction is wrong)
-** [[http://tedn.life/reveal-iceberg/iceberg.html][Software Gardening and not hiting icebergs]]
-** [[https://tedn.life/2013/02/16/about-broken-windows-and-software-gardening-...-thoughts-from-the-pragmatic-programmer/][Fixing broken windows]]
-** [[http://tedn.life/reveal-the-power/why.html][The Power of Why]]
-** [[http://tedn.life/2018/11/30/advent-of-code-...-final-cut-...-and-first-cut/][Functional Programming]]
-** Synergy between Product and Engineering
+*** [[http://tedn.life/reveal-iceberg/iceberg.html][Software Gardening and not hiting icebergs]]
+*** [[https://tedn.life/2013/02/16/about-broken-windows-and-software-gardening-...-thoughts-from-the-pragmatic-programmer/][Fixing broken windows]]
+*** [[http://tedn.life/reveal-the-power/why.html][The Power of Why]]
+*** [[http://tedn.life/2018/11/30/advent-of-code-...-final-cut-...-and-first-cut/][Functional Programming]]
+*** Synergy between Product and Engineering
    - Build the right thing and build it right
-   - Build what the customer wants/needs and build what's possible
+   - Understand what the customer wants/needs and complement it with what's possible
    - Do *not* build faster horses
-** Cameradery, we are in it together, we have each others back, ...
+*** Cameradery ...
+    - we are in it together
+    - we have each others back
+*** ... to be useful
+*** ... to complement (not compete)
+   - be the oil in the gearbox
+   - be(come) the missing puzzle-piece
+** Quotes ...
+*** You cannot change the trajectory of a stationary object - Andrew O'Sullivan
+*** Never waste a good crisis - Winston Churchill
+*** 80% of something is better than a 100% of nothing - ???
+*** Ever tried? Ever failed? No matter! Try again!! Fail better!!! - Samuel Beckett
+*** People before Process and Problem/Project/Product - Walt Brown
 ** I am ...
-** A worried optimist
-** The nicest slave driver you have ever worked for
-** WIP :) 
-** ...
+*** A worried optimist
+*** The nicest slave driver you have ever worked for
+*** WIP :) 
+*** ...
 ** I will ...
-** Keep on giving you work until you say stop (and that is ok)
-** ...
+*** Keep on giving you work until you say stop (and that is ok)
+*** ...
