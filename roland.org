@@ -1,6 +1,6 @@
 #+title: Roland
 #+subtitle: THE User Manual
-#+date: <2020-05-15>
+#+date: <2021-05-01>
 #+author: Roland Tritsch
 #+email: roland@tritsch.org
 #+options: timestamp:t date:nil title:t author:t
@@ -50,6 +50,21 @@
 
   #+REVEAL_HTML: <img src="./images/disc.png" width="40%"/>
 
+** Strength ...
+*** Sees innovation as a necessity (being different/unique is good)
+*** Boundless energy. Multi-purpose weapon
+*** A natural go-getter with a great enthusiasm for life 
+** Weaknesses ...
+*** Leaps before he looks (tendency to see things more positive then they are)
+*** Overly dismissive of negative feedback
+*** Doesn't always take time to hear others views
+** Possible Blindspots ...
+*** He is seen to perform better when he reins in his boldness, energy and enjoyment of being in control to a level where other people take priority. He is a born entrepreneur who is constantly overselling his next great idea and attempting to generate support for it. He may rely on personal forcefulness and, if necessary, intimidation to achieve his aims.
+*** As he values creativity and innovation, he sometimes ignores the standard way of doing something because it lacks originality
+** Ideal Environment ...
+*** He continuously contributes to organisational improvement (building/developing people)
+*** Activities, variety and change are constantly taking place
+*** He can turn a vision (a big idea) into reality 
 * Ego State
 
   #+REVEAL_HTML: <div class="column" style="float: left; width: 70%">
@@ -67,7 +82,7 @@
    Max Levchin
 
 * Introduction
-  - What do you do? Role? Responsibilities?
+  - What do you do?
   - Why are you here?
   - What is your superpower?
 * Superpower
@@ -84,6 +99,7 @@
   #+REVEAL_HTML: <div class="column" style="float: right; width: 40%"><img src="./images/raise.png" width="80%"/></div>
 
 * (Naturally) I am/can be ...
+** ... (too) action-oriented ...
 ** ... loud & obnoxious ...
 ** ... impatient & hot-tempered ...
 ** ... and I need to use some of my energy to moderate that!
@@ -100,10 +116,25 @@
 ** ... turning a strategy into tactics!
 ** ... listening (talking too much)!
 ** ... going slow (to go faster)!
+   - Judging too early/fast
+   - (Sometimes) Missing information
+* Buttons **not** to push ...
+** Try(ing) to manage, handle, manipulate, bully, ... me
+   - Instead ... use the front door!
+   - Are you asking me or are you telling me? Do not use questions to "ease" me into decsion that is already made!
+   - Being in control vs. being controlled
+** Telling me about important meetings that happened in the afternoon ...
+   - Because ... I have TZ envy/FOMO/fear/anxiety
+** (Unnecessarily) Waste ... time, energy, money, "resources", ...
+   - Because ... I like to be effective/efficient (more than right and fast)
+   - Because ... I like to work as hard as it needs to be (but not harder)
+** Not wearing a headset ...
+   - Because ... I perceive it as not caring how hard it is to understand you (I perceive it as egoistic/self-centered; I do not need a headset: I can hear you well))
 * Little known fact
 
   #+REVEAL_HTML: <img src="https://live.staticflickr.com/5301/5601446934_1d3c807612_z.jpg" width="60%"/>
-   
+
+** The three things that made me the man I am today ...
 * Q&A
 * Appendix
 ** Resources
@@ -115,7 +146,24 @@
    - [[https://twitter.com/innolocity][Innolocity]]
    - [[https://www.instagram.com/theextremedigitalnomad/][TheExtremeDigitalNomad]]
 
+** Books ...
+*** The Quark and the Jaguar - Murray Gell-Mann
+*** Goedel, Escher, Bach - Douglas Hofstadter
+*** Virtual Leadership: Secrets from the Round Table for the Multi-Site Manager - Jaclyn Kostner
+*** The Hitchhiker's Guide to the Galaxy - Douglas Adams
+*** Man's Search for Meaning - Viktor Frankl
+*** Zorba the Greek - Nikos Kazantzakis
+** Quotes ...
+*** You cannot change the trajectory of a stationary object - Andrew O'Sullivan
+*** Never waste a good crisis - Winston Churchill
+*** 80% of something is better than a 100% of nothing - ???
+*** Ever tried? Ever failed? No matter! Try again!! Fail better!!! - Samuel Beckett
+*** People before Process and Problem/Project/Product - Walt Brown
+*** You either work/care for something or somebody - Roland Tritsch
+*** Give me the coffee and nobody get hurt - ???
+*** Some people wish it would happen, some people want it to happen, some people make it happen - ???
 ** I like ...
+*** ... to build relationships and organisations based on trust and respect
 *** Grit, showing up, hard work (doing what's right, not what's easy/popular), ...
 *** Talking to each other, not about each other, ...
 *** No surprises
@@ -151,7 +199,7 @@
 *** Synergy between Product and Engineering
    - Build the right thing and build it right
    - Understand what the customer wants/needs and complement it with what's possible
-   - Do *not* build faster horses
+   - Do *not* [[https://tedn.life/2021/02/12/the-first-summit/hack-a-thon-community][build faster horses]]
 *** Cameradery ...
     - we are in it together
     - we have each others back
@@ -159,12 +207,10 @@
 *** ... to complement (not compete)
    - be the oil in the gearbox
    - be(come) the missing puzzle-piece
-** Quotes ...
-*** You cannot change the trajectory of a stationary object - Andrew O'Sullivan
-*** Never waste a good crisis - Winston Churchill
-*** 80% of something is better than a 100% of nothing - ???
-*** Ever tried? Ever failed? No matter! Try again!! Fail better!!! - Samuel Beckett
-*** People before Process and Problem/Project/Product - Walt Brown
+*** Big/relevant/important projects/work
+    - ... which (sometimes) makes me go into a direction where I try to boil the ocean.
+*** Progress over perfection
+*** Like/prefer to be the lowest performing team member in an A-team rather than the top performer in a B-team
 ** I am ...
 *** A worried optimist
 *** The nicest slave driver you have ever worked for
