@@ -8,6 +8,23 @@
 #+reveal_theme: beige
 #+reveal_init_options: width:"60%"
 
+* Community
+** What I am good at/strength ...
+*** Lot's of energy (positive, glass half full kinda guy, driven, ambitious, ...) 
+*** Love software engineering and software engineers (and people in general; people are the solution)
+*** Purpose driven (driven to define/develop/understand the WHY) 
+** What I am not good at/weaknesses ...
+*** Agent Romanow, my secret is ... (sing lullabies)
+*** Receiving feedback (keep on giving) 
+*** 
+** I like ...
+*** Functional programming and functional teams (pun intended)
+*** To help people to find/develop their superpower(s) (soar with you strength; mitigate weaknesses)
+*** Life :)
+** I do not like ...
+*** Work-/Life-Balance (I like Work-/Life-Harmony)
+*** 
+*** Suprises
 * Manager
 ** Building functional teams and functional systems
 ** Making engineers grow and users smile
