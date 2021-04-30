@@ -8,23 +8,6 @@
 #+reveal_theme: beige
 #+reveal_init_options: width:"60%"
 
-* Community
-** What I am good at/strength ...
-*** Lot's of energy (positive, glass half full kinda guy, driven, ambitious, ...) 
-*** Love software engineering and software engineers (and people in general; people are the solution)
-*** Purpose driven (driven to define/develop/understand the WHY) 
-** What I am not good at/weaknesses ...
-*** Agent Romanow, my secret is ... (sing lullabies)
-*** Receiving feedback (keep on giving) 
-*** 
-** I like ...
-*** Functional programming and functional teams (pun intended)
-*** To help people to find/develop their superpower(s) (soar with you strength; mitigate weaknesses)
-*** Life :)
-** I do not like ...
-*** Work-/Life-Balance (I like Work-/Life-Harmony)
-*** 
-*** Suprises
 * Manager
 ** Building functional teams and functional systems
 ** Making engineers grow and users smile
@@ -224,7 +207,7 @@
 *** ... to complement (not compete)
    - be the oil in the gearbox
    - be(come) the missing puzzle-piece
-*** Big/relevant/important projects/work
+*** Big/relevant/important ideas/projects/work
     - ... which (sometimes) makes me go into a direction where I try to boil the ocean.
 *** Progress over perfection
 *** Like/prefer to be the lowest performing team member in an A-team rather than the top performer in a B-team
@@ -236,3 +219,21 @@
 ** I will ...
 *** Keep on giving you work until you say stop (and that is ok)
 *** ...
+* Community
+** What I am good at/strength ...
+*** Lot's of energy (positive, glass half full kinda guy, driven, ambitious, ...) 
+*** Love software engineering and software engineers (and people in general; people are the solution)
+*** Purpose driven (driven to define/develop/understand the WHY) 
+** What I am not good at/weaknesses ...
+*** Agent Romanow, my secret is ... (sing lullabies)
+*** Receiving feedback (keep on giving) 
+*** Too fast/driven for my own good (missing information, the bull in the ..., physical excersise, ...) 
+** I like ...
+*** Functional programming and functional teams (pun intended)
+*** To help people to find/develop their superpower(s) (soar with you strength; mitigate weaknesses)
+*** Productive Friction (vs. Unproductive Friction/Harmony)
+*** Discussions (vs. Arguments)
+*** Bad news (vs. Surprises)
+*** Big ideas
+** I do not like ...
+*** Work-/Life-Balance (I like Work-/Life-Harmony)
