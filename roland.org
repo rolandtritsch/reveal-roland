@@ -11,13 +11,13 @@
 * Manager
 ** Building functional teams and functional systems
 ** Making engineers grow and users smile
-
-* Software Engineer
+** Explorer of remote-first cultures
+* Software Craftsman
 ** Functional Programming
 ** SaaS Backends
 ** Shared-Nothing Micro-Services Architectures
+   - Single-Purpose Services
    - Using events to propagate state
-
 * Husband & Father
   
   #+REVEAL_HTML: <img src="./images/family.png" width="80%"/>
@@ -26,6 +26,13 @@
 
   #+REVEAL_HTML: <img src="./images/believes.png" width="80%"/>
 
+* Believes & Values & Motivation
+  I believe ...
+  - ... in people-first. Get good people and "unleash" them. Putting value on CVs. Always. Every day.
+  - ... in purpose-first. You need to understand why you do what you do. And you need to like it. You need to be able to link it to your personal mission/vison/purpose.
+  - ... in the value of functional programming (low cost of ownership; specifically Scala and Haskell).
+  - ... in building balanced, sustainable engineering orgs (where people trust and respect each other).
+  - ... in the value of remote-first (done right) as the next better way to build and run engineering orgs (up to 300 engineers).
 * [[https://drive.google.com/open?id=0B27uLCKisOleQS1wRWZDN1lPOUE][MBTI]] - Leia & Darth
 
   #+REVEAL_HTML: <div class="column" style="float: left; width: 60%">
@@ -223,21 +230,3 @@
 ** I will ...
 *** Keep on giving you work until you say stop (and that is ok)
 *** ...
-* Community
-** What I am good at/strength ...
-*** Lot's of energy (positive, glass half full kinda guy, driven, ambitious, ...) 
-*** Love software engineering and software engineers (and people in general; people are the solution)
-*** Purpose driven (driven to define/develop/understand the WHY) 
-** What I am not good at/weaknesses ...
-*** Agent Romanow, my secret is ... (sing lullabies)
-*** Receiving feedback (keep on giving) 
-*** Too fast/driven for my own good (missing information, the bull in the ..., physical excersise, ...) 
-** I like ...
-*** Functional programming and functional teams (pun intended)
-*** To help people to find/develop their superpower(s) (soar with you strength; mitigate weaknesses)
-*** Productive Friction (vs. Unproductive Friction/Harmony)
-*** Discussions (vs. Arguments)
-*** Bad news (vs. Surprises)
-*** Big ideas
-** I do not like ...
-*** Work-/Life-Balance (I like Work-/Life-Harmony)
