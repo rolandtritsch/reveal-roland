@@ -12,6 +12,8 @@
 
 To speed up the learning (how to work together) ...
 
+Shorten the time to get to an understanding how good and right looks like ...
+
 #+REVEAL_HTML: <div class="column" style="float: left; width: 60%">
 - Who is Roland?
 - What does Roland like/dislike when working together?
@@ -231,8 +233,8 @@ we are doing it
 What you can expect from me and what I expect from you
 
 - Trust and respect. Radical candor. Productive friction
-- Say-what-you-do and do-what-you-say (make promises and keep them
-  (and if not ... appologize, learn, ... and move on)
+- Say-what-you-do and do-what-you-say. Make promises and keep them
+  (and if not ... learn ... and move on)
 - Be a leader. Be an inspiration to others. Drive yourself and others
 
 ** Yours & Mine
@@ -256,12 +258,16 @@ What you can expect from me and what I expect from you
 - Grit, showing up, hard work (doing what's right, not what's
   easy/popular), ...
 - Talking to each other, not about each other, ...
+
+** I like ...
+
 - No surprises
   - I will miss the deadline next week vs. I will miss the deadline
     tomorrow
 - Ownership & accountability
   - Say what you do & Do what you say
-  - I f...ed-up ... and here is what I am going to do about it
+  - I f...ed-up ... and here is what I learned and what I am going to
+    do about it
 
 ** I like ...
 
@@ -269,7 +275,7 @@ What you can expect from me and what I expect from you
   making promises and keeping them (and if not ... appologize, learn
   ... and move on), ...
 - Productive friction, disagree and commit, radical candor, ...
-- Do the right thing and do it right (with urgency)
+- Do the right thing and do it right and do it right now
 - Building a place where great engineers can do their best work
   - Where ... talent meets passion and purpose
   - Where ... mastery meets autonomy and purpose
@@ -284,6 +290,9 @@ What you can expect from me and what I expect from you
   - And good desicion making skills (using groups of people) (and that
     are passionate about software engineering and writing good,
     maintainable code) (and that have a [[https://www.youtube.com/watch?v=KUWn_TJTrnU][growth mindset]])
+
+** I like ...
+
 - Strategic thinking/planning
   - Develop a sense of direction
     - ... for the next N steps/time-units
@@ -314,13 +323,14 @@ What you can expect from me and what I expect from you
 
 ** I like ...
 
-... on top of what we have already talked about ...
-
 - ... being on-time (being professional)
 - ... being effective/efficient (do not waste time, money, energy
   (unnecessarily))
 - ... cameradery (a/the feeling of being in it together; building
   teams that trust and respect each other)
+
+** I like ...
+
 - ... to be kind (not nice; embrace radical candor and productive
   friction)
   - Build safe places, where you can (respectfully) disagree with each
@@ -329,14 +339,17 @@ What you can expect from me and what I expect from you
 
 ** I like ...
 
-... on top of what we have already talked about ...
-
 - ... competence (expertise + experience + intelligence)
 - ... building beautiful, impactful things/systems
 - ... say what you do, do what you say (no surprises)
 - ... to try a lot and keep what works
 - ... to fail forward
+
+** I like ...
+
 - ... people with a growth-mindset
+- ... poeple with no ego (or at least people, who know how to manage
+  their ego)
 
 ** I dislike ...
 
@@ -420,18 +433,19 @@ What you can expect from me and what I expect from you
   
 ** I will ...
 
--  Keep on giving you work until you say stop (and that is ok)
+- Keep on giving you work until you say stop
+  - And saying stop is totally acceptable
 
 ** Buttons **not** to push ...
+
 - Try(ing) to manage, handle, manipulate, ... me
   - Instead ... use the front door!
 - (Unnecessarily) Waste ... time, energy, money, ...
   - Because ... I like to be effective/efficient (more than right and fast)
   - Because ... I like to work as hard as it needs to be (but not harder)
-- Not wearing a headset ...
-  - Because ... I perceive it as not caring how hard it is to
-    understand you (I perceive it as egoistic/self-centered; I do not
-    need a headset: I can hear you well))
+- (As a symbol) Not wearing a headset ...
+  - Because ... I perceive it as a lack of care (caring how hard it is to
+    hear/understand you)
 
 * Appendix - Quotes
 
@@ -451,31 +465,160 @@ Leadership is the ability to inspire others to deliver on shared
 objectives - Jeff Weiner, CEO @ Linked-In
 #+REVEAL_HTML: </blockquote>
 
-** Wisdom
+** Leadership
 
 #+REVEAL_HTML: <blockquote>
-Knowledge is to know that tomatos are not a vegtable, but a
-fruit. Wisdom is not to put them into a fruit salad. - Brian
-O'Driscoll, Outside Center @ IRFU
+If you're going through hell, don't stop walking. - Winston Churchill
 #+REVEAL_HTML: </blockquote>
 
-** Wisdom
+** Leadership
 
 #+REVEAL_HTML: <blockquote>
 You cannot change the trajectory of a stationary object - Andrew
 O'Sullivan, VP Services @ IONA
 #+REVEAL_HTML: </blockquote>
 
-** Wisdom
+** Leadership
 
 #+REVEAL_HTML: <blockquote>
 Never waste a good crisis - Winston Churchill, Prime Minister @ UK
 #+REVEAL_HTML: </blockquote>
 
-** Wisdom
+** Leadership
 
 #+REVEAL_HTML: <blockquote>
-80% of something is better than a 100% of nothing - ???
+You either work/care for something or somebody - Roland Tritsch
+#+REVEAL_HTML: </blockquote>
+
+** Leadership
+
+#+REVEAL_HTML: <blockquote>
+People before Process and Problem/Project/Product - Walt Brown
+#+REVEAL_HTML: </blockquote>
+
+** Leadership
+
+#+REVEAL_HTML: <blockquote>
+Is somebody hurt? Did somebody die? No? Then we can fix it! - Walt Brown
+#+REVEAL_HTML: </blockquote>
+
+** Leadership
+
+#+REVEAL_HTML: <blockquote>
+Never complain and never explain. - Benjamin Disraeli
+#+REVEAL_HTML: </blockquote>
+
+** Leadership
+
+#+REVEAL_HTML: <blockquote>
+Ever tried? Ever failed? No matter! Try again!! Fail better!!! - Samuel Beckett
+#+REVEAL_HTML: </blockquote>
+
+** Leadership
+
+#+REVEAL_HTML: <blockquote>
+80% of something good is better than a 100% of something bad - Roland Tritsch
+#+REVEAL_HTML: </blockquote>
+
+
+** Leadership
+
+#+REVEAL_HTML: <blockquote>
+Do or do not do, there is no try! - Yoda
+#+REVEAL_HTML: </blockquote>
+
+** Leadership
+
+#+REVEAL_HTML: <blockquote>
+The three pillars of success: Have a sense of direction and
+purpose. Hire great people. Execute well. - Roland Tritsch
+#+REVEAL_HTML: </blockquote>
+
+** Leadership
+
+#+REVEAL_HTML: <blockquote>
+Successful people do not want to be successful, they want to become
+successful. - Roland Tritsch
+#+REVEAL_HTML: </blockquote>
+
+** Leadership
+
+#+REVEAL_HTML: <blockquote>
+Be kind. Be strong. Be happy. - Mark (Braggy) Bragg
+#+REVEAL_HTML: </blockquote>
+
+** Leadership
+
+#+REVEAL_HTML: <blockquote>
+Before you can lead, you have to learn how to follow! - ???
+#+REVEAL_HTML: </blockquote>
+
+** Leadership
+
+#+REVEAL_HTML: <blockquote>
+Culture is what happens when you don't look! - ???
+#+REVEAL_HTML: </blockquote>
+
+** Leadership
+
+#+REVEAL_HTML: <blockquote>
+FAST. GOOD. CHEAP. Choose any two. - Common Project Scheduling Mantra
+#+REVEAL_HTML: </blockquote>
+
+** Leadership
+
+#+REVEAL_HTML: <blockquote>
+Simple things should be simple, complex things should be POSSIBLE. - ???
+#+REVEAL_HTML: </blockquote>
+
+** Leadership
+
+#+REVEAL_HTML: <blockquote>
+Do it! Do it right!! Do it right now!!! - ???
+#+REVEAL_HTML: </blockquote>
+
+** Leadership
+
+#+REVEAL_HTML: <blockquote>
+Give me the strength to change the things I can change, the tolerance
+to accept the things I cannot change and the wisdom to destinguish
+between the two. - ???
+#+REVEAL_HTML: </blockquote>
+
+** Leadership
+
+#+REVEAL_HTML: <blockquote>
+Before software can be reusable it first has to be usable. - Ralph Johnson
+#+REVEAL_HTML: </blockquote>
+
+** Leadership
+
+#+REVEAL_HTML: <blockquote>
+No plan survives first contact with the enemy! - Helmuth von Moltke the Elder
+#+REVEAL_HTML: </blockquote>
+
+** Leadership
+
+#+REVEAL_HTML: <blockquote>
+I have a dream! - Martin Luther King
+#+REVEAL_HTML: </blockquote>
+
+** Leadership
+
+#+REVEAL_HTML: <blockquote>
+Can we fix it? Yes, we can! - Bob the Builder
+#+REVEAL_HTML: </blockquote>
+
+** Leadership
+
+#+REVEAL_HTML: <blockquote>
+Always be useful! - Thomas the Tank-Engine
+#+REVEAL_HTML: </blockquote>
+
+** Leadership
+
+#+REVEAL_HTML: <blockquote>
+If you know your why, you can endure any how! - Nietzsche
 #+REVEAL_HTML: </blockquote>
 
 ** Wisdom
@@ -494,31 +637,7 @@ people make it happen - ???
 ** Wisdom
 
 #+REVEAL_HTML: <blockquote>
-Give me the coffee and nobody get hurt - ???
-#+REVEAL_HTML: </blockquote>
-
-** Wisdom
-
-#+REVEAL_HTML: <blockquote>
-You either work/care for something or somebody - Roland Tritsch
-#+REVEAL_HTML: </blockquote>
-
-** Wisdom
-
-#+REVEAL_HTML: <blockquote>
-People before Process and Problem/Project/Product - Walt Brown
-#+REVEAL_HTML: </blockquote>
-
-** Wisdom
-
-#+REVEAL_HTML: <blockquote>
-Is somebody hurt? Did somebody die? No? Then we can fix it! - Walt Brown
-#+REVEAL_HTML: </blockquote>
-
-** Wisdom
-
-#+REVEAL_HTML: <blockquote>
-Ever tried? Ever failed? No matter! Try again!! Fail better!!! - Samuel Beckett
+Give me the coffee and nobody gets hurt - ???
 #+REVEAL_HTML: </blockquote>
 
 ** Wisdom
@@ -530,14 +649,16 @@ Love all, trust (and respect) a few, do wrong to none. - William Shakespeare
 ** Wisdom
 
 #+REVEAL_HTML: <blockquote>
-Optimism is the essential ingredient for innovation. - Robert Noyce
+We are what we repeatedly do. Excellence, then, is not an act, but a
+habit. - Aristotle
 #+REVEAL_HTML: </blockquote>
 
 ** Wisdom
 
 #+REVEAL_HTML: <blockquote>
-We are what we repeatedly do. Excellence, then, is not an act, but a
-habit. - Aristotle
+Knowledge is to know that tomatos are not a vegtable, but a
+fruit. Wisdom is not to put them into a fruit salad. - Brian
+O'Driscoll, Outside Center @ IRFU
 #+REVEAL_HTML: </blockquote>
 
 * Appendix - My life in pictures
