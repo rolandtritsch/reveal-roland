@@ -220,16 +220,157 @@ objectives - Jeff Weiner, CEO @ Linked-In
   - Judging too early/fast
   - (Sometimes) Missing information
 
-** Buttons **not** to push ...
-- Try(ing) to manage, handle, manipulate, ... me
-  - Instead ... use the front door!
-  - Are you asking me or are you telling me? Do not use questions to
-    /ease/ me into decsion that is already made!
-- (Unnecessarily) Waste ... time, energy, money, ...
-  - Because ... I like to be effective/efficient (more than right and fast)
-  - Because ... I like to work as hard as it needs to be (but not harder)
-- Not wearing a headset ...
-  - Because ... I perceive it as not caring how hard it is to understand you (I perceive it as egoistic/self-centered; I do not need a headset: I can hear you well))
+* Expectations
+
+You should always know why what you do matters. You should always feel
+a sense of purpose. You should always know what we are doing and why
+we are doing it
+
+** Yours & Mine
+
+What you can expect from me and what I expect from you
+
+- Trust and respect. Radical candor. Productive friction
+- Say-what-you-do and do-what-you-say (make promises and keep them
+  (and if not ... appologize, learn, ... and move on)
+- Be a leader. Be an inspiration to others. Drive yourself and others
+
+** Yours & Mine
+
+- Have a growth-mindset. Manage your ego. Grow. Make mistakes
+  (once). Keep on trying to be(come) a better version of yourself
+  (every day, month, year). Close the potential-gap (every day; for
+  yourself and the company; be(come) the best version of yourself)
+- Have (strong) opinions, weakly held
+- Be decent. Be ambitious. Be competent
+
+* AMA
+
+#+REVEAL_HTML: <a data-flickr-embed="true" href="https://www.flickr.com/photos/rolandtritsch/11734671183/in/dateposted/" title="The force is strong in this one"><img src="https://live.staticflickr.com/7345/11734671183_21ddacc2c0_n.jpg" width="20%" alt="The force is strong in this one"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+* Appendix - (More of what) I like ...
+
+- To build relationships and organisations based on trust and
+  respect
+- Work-/Life-Harmony (I do not like Work-/Live-Balance)
+- Grit, showing up, hard work (doing what's right, not what's
+  easy/popular), ...
+- Talking to each other, not about each other, ...
+- No surprises
+  - I will miss the deadline next week vs. I will miss the deadline
+    tomorrow
+- Ownership & accountability
+  - Say what you do & Do what you say
+  - I f...ed-up ... and here is what I am going to do about it
+
+** I like ...
+
+- Being on time, being reliable, say-what-you-do/do-what-you-say,
+  making promises and keeping them (and if not ... appologize, learn
+  ... and move on), ...
+- Productive friction, disagree and commit, radical candor, ...
+- Do the right thing and do it right (with urgency)
+- Building a place where great engineers can do their best work
+  - Where ... talent meets passion and purpose
+  - Where ... mastery meets autonomy and purpose
+  - Where ... accountability meets autonomy and authority
+
+** I like ...
+
+- Good hiring
+  - Nice/decent, humble/ego-less, intelligent people
+  - That like to solve problems (and are good at it)
+  - With good judgement (and a lot of common sense)
+  - And good desicion making skills (using groups of people) (and that
+    are passionate about software engineering and writing good,
+    maintainable code) (and that have a [[https://www.youtube.com/watch?v=KUWn_TJTrnU][growth mindset]])
+- Strategic thinking/planning
+  - Develop a sense of direction
+    - ... for the next N steps/time-units
+  - Execute on the first step/time-unit
+  - Rinse and repeat
+
+** I like ...
+
+- Cameradery ...
+  - we are in it together
+  - we have each others back
+- ... to be useful
+- ... to complement (not compete)
+  - be the oil in the gearbox
+  - be(come) the missing puzzle-piece
+- Big/relevant/important ideas/projects/work
+  - ... which (sometimes) makes me go into a direction where I try to
+    boil the ocean.
+
+** I like ...
+
+- Progress over perfection
+- Like/prefer to be the lowest performing team member in an A-team rather than the top performer in a B-team
+- Headsets/Good-Audio
+- ... to be effective and efficient (I do not like waste of time,
+  engergy and money; e.g. bad meetings)
+- ... decency, ambition and competence
+
+** I like ...
+
+... on top of what we have already talked about ...
+
+- ... being on-time (being professional)
+- ... being effective/efficient (do not waste time, money, energy
+  (unnecessarily))
+- ... cameradery (a/the feeling of being in it together; building
+  teams that trust and respect each other)
+- ... to be kind (not nice; embrace radical candor and productive
+  friction)
+  - Build safe places, where you can (respectfully) disagree with each
+    other (but then also disagree-and-commit)
+- ... (wired) headsets (I do not need a headset, I can hear you well)
+
+** I like ...
+
+... on top of what we have already talked about ...
+
+- ... competence (expertise + experience + intelligence)
+- ... building beautiful, impactful things/systems
+- ... say what you do, do what you say (no surprises)
+- ... to try a lot and keep what works
+- ... to fail forward
+- ... people with a growth-mindset
+
+** I dislike ...
+
+- ... making no mistakes (means we are not pushing hard enough)
+- ... making mistakes twice (means we are not learning fast enough)
+- ... when ego(s) (mine or others) get in the way of moving fast
+  and/or doing something that is good and right
+
+* Appendix - (More about) Roland
+
+** I am a Software Craftsman
+
+- Build and own/operate functional (minimal) systems, that solve a problem (that needs solving)
+- Build with functional programming languages
+- Build gardens, not jungles (managable cost of ownership)
+
+** I am a Software Craftsman
+
+- My dad is a craftsman (toolsmith). I learned early in life ...
+  - ... that you plan, execute, clean/sharpen the tools, rinse and repeat
+  - ... to sign my work (it needs to be beautiful; you need to be proud of it)
+  - ... that the quality of the tools and material and the level of the craftmanship determines the quality of what you build
+
+** I am a Manager
+
+- Building functional teams (were people trust and respect each other)
+- Building (remote-first) places where great engineers can do there best work
+- Help people to find/discover their superpower (everybody got one) and develop it
+
+** I am a Leader
+
+- Find problems that need/deserve solving (make the planet a better place)
+- Inspire others to deliver on shared objectives - Jeff Weiner
+- Be strong. Be kind. Be happy
 
 ** Little known fact
 
@@ -241,7 +382,58 @@ objectives - Jeff Weiner, CEO @ Linked-In
 - The scholarship (Carl Duisberg Society)
 - My wife and my son
   
-* Quotes
+** Resources
+
+- [[http://www.tritsch.org/about/][About]]
+- [[https://www.linkedin.com/in/rolandtritsch/][Linked-In]]
+- [[https://www.flickr.com/photos/rolandtritsch][Flickr]]
+- [[https://github.com/rolandtritsch][GitHub]]
+- [[https://www.instagram.com/theextremedigitalnomad/][TheExtremeDigitalNomad]]
+
+** Blogs/Thoughts
+
+- [[http://tedn.life/reveal-iceberg/iceberg.html][Software Gardening and not hiting icebergs]]
+- [[https://tedn.life/2013/02/16/about-broken-windows-and-software-gardening-...-thoughts-from-the-pragmatic-programmer/][Fixing broken windows]]
+- [[http://tedn.life/reveal-the-power/why.html][The Power of Why]]
+- [[http://tedn.life/2018/11/30/advent-of-code-...-final-cut-...-and-first-cut/][Functional Programming]]
+- Synergy between Product and Engineering
+  - Build the right thing and build it right
+  - Understand what the customer wants/needs and complement it with
+    what's possible
+  - Do *not* [[https://tedn.life/2021/02/12/the-first-summit/hack-a-thon-community][build faster horses]]
+
+** (Some) Books
+
+- Man's Search for Meaning - Victor Frankl
+- How To Be A Stoic - Massimo Pigliucci
+- Clean Code - Robert C. Martin
+- The Pragmatic Programmer - Andrew Hunt and David Thomas
+- Building a MicroService - Sam Newman
+- ... more
+
+** I am ...
+
+- A worried and realistic optimist
+- The nicest slave driver you have ever worked for
+- WIP :) 
+- ???
+  
+** I will ...
+
+-  Keep on giving you work until you say stop (and that is ok)
+
+** Buttons **not** to push ...
+- Try(ing) to manage, handle, manipulate, ... me
+  - Instead ... use the front door!
+- (Unnecessarily) Waste ... time, energy, money, ...
+  - Because ... I like to be effective/efficient (more than right and fast)
+  - Because ... I like to work as hard as it needs to be (but not harder)
+- Not wearing a headset ...
+  - Because ... I perceive it as not caring how hard it is to
+    understand you (I perceive it as egoistic/self-centered; I do not
+    need a headset: I can hear you well))
+
+* Appendix - Quotes
 
 ** Leadership
 
@@ -348,175 +540,7 @@ We are what we repeatedly do. Excellence, then, is not an act, but a
 habit. - Aristotle
 #+REVEAL_HTML: </blockquote>
 
-* Expectations
-
-** Yours
-
-- ???
-- ???
-- ???
-
-** Mine
-
-- ???
-- ???
-- ???
-
-* Wrap-up (AMA)
-
-* Appendix
-
-** Resources
-
-- [[http://www.tritsch.org/about/][About]]
-- [[https://www.linkedin.com/in/rolandtritsch/][Linked-In]]
-- [[https://www.flickr.com/photos/rolandtritsch][Flickr]]
-- [[https://github.com/rolandtritsch][GitHub]]
-- [[https://www.instagram.com/theextremedigitalnomad/][TheExtremeDigitalNomad]]
-
-** Blogs/Thoughts
-
-- [[http://tedn.life/reveal-iceberg/iceberg.html][Software Gardening and not hiting icebergs]]
-- [[https://tedn.life/2013/02/16/about-broken-windows-and-software-gardening-...-thoughts-from-the-pragmatic-programmer/][Fixing broken windows]]
-- [[http://tedn.life/reveal-the-power/why.html][The Power of Why]]
-- [[http://tedn.life/2018/11/30/advent-of-code-...-final-cut-...-and-first-cut/][Functional Programming]]
-- Synergy between Product and Engineering
-  - Build the right thing and build it right
-  - Understand what the customer wants/needs and complement it with what's possible
-  - Do *not* [[https://tedn.life/2021/02/12/the-first-summit/hack-a-thon-community][build faster horses]]
-
-** I like ...
-
-- To build relationships and organisations based on trust and
-  respect
-- Work-/Life-Harmony (I do not like Work-/Live-Balance)
-- Grit, showing up, hard work (doing what's right, not what's
-  easy/popular), ...
-- Talking to each other, not about each other, ...
-- No surprises
-  - I will miss the deadline next week vs. I will miss the deadline
-    tomorrow
-- Ownership & accountability
-  - Say what you do & Do what you say
-  - I f...ed-up ... and here is what I am going to do about it
-
-** I like ...
-
-- Being on time, being reliable, say-what-you-do/do-what-you-say,
-  making promises and keeping them (and if not ... appologize, learn
-  ... and move on), ...
-- Productive friction, disagree and commit, radical candor, ...
-- Do the right thing and do it right (with urgency)
-- Building a place where great engineers can do their best work
-  - Where ... talent meets passion and purpose
-  - Where ... mastery meets autonomy and purpose
-  - Where ... accountability meets autonomy and authority
-
-** I like ...
-
-- Good hiring
-  - Nice/decent, humble/ego-less, intelligent people
-  - That like to solve problems (and are good at it)
-  - With good judgement (and a lot of common sense)
-  - And good desicion making skills (using groups of people) (and that
-    are passionate about software engineering and writing good,
-    maintainable code) (and that have a [[https://www.youtube.com/watch?v=KUWn_TJTrnU][growth mindset]])
-- Strategic thinking/planning
-  - Develop a sense of direction
-    - ... for the next N steps/time-units
-  - Execute on the first step/time-unit
-  - Rinse and repeat
-
-** I like ...
-
-- Cameradery ...
-  - we are in it together
-  - we have each others back
-- ... to be useful
-- ... to complement (not compete)
-  - be the oil in the gearbox
-  - be(come) the missing puzzle-piece
-- Big/relevant/important ideas/projects/work
-  - ... which (sometimes) makes me go into a direction where I try to boil the ocean.
-
-** I like ...
-
-- Progress over perfection
-- Like/prefer to be the lowest performing team member in an A-team rather than the top performer in a B-team
-- Headsets/Good-Audio
-- ... to be effective and efficient (I do not like waste of time,
-  engergy and money; e.g. bad meetings)
-
-** I am ...
-
-- A worried and realistic optimist
-- The nicest slave driver you have ever worked for
-- WIP :) 
-- ???
-  
-** I will ...
-
--  Keep on giving you work until you say stop (and that is ok)
-
-** I am a Software Craftsman
-
-- Build and own/operate functional (minimal) systems, that solve a problem (that needs solving)
-- Build with functional programming languages
-- Build gardens, not jungles (managable cost of ownership)
-
-** I am a Software Craftsman
-
-- My dad is a craftsman (toolsmith). I learned early in life ...
-  - ... that you plan, execute, clean/sharpen the tools, rinse and repeat
-  - ... to sign my work (it needs to be beautiful; you need to be proud of it)
-  - ... that the quality of the tools and material and the level of the craftmanship determines the quality of what you build
-
-** I am a Manager
-
-- Building functional teams (were people trust and respect each other)
-- Building (remote-first) places where great engineers can do there best work
-- Help people to find/discover their superpower (everybody got one) and develop it
-
-** I am a Leader
-
-- Find problems that need/deserve solving (make the planet a better place)
-- Inspire others to deliver on shared objectives - Jeff Weiner
-- Be strong. Be kind. Be happy
-
-** I like ...
-
-... on top of what we have already talked about ...
-
-- ... being on-time (being professional)
-- ... being effective/efficient (do not waste time, money, energy
-  (unnecessarily))
-- ... cameradery (a/the feeling of being in it together; building
-  teams that trust and respect each other)
-- ... to be kind (not nice; embrace radical candor and productive
-  friction)
-  - Build safe places, where you can (respectfully) disagree with each
-    other (but then also disagree-and-commit)
-- ... (wired) headsets (I do not need a headset, I can hear you well)
-
-** I like ...
-
-... on top of what we have already talked about ...
-
-- ... competence (expertise + experience + intelligence)
-- ... building beautiful, impactful things/systems
-- ... say what you do, do what you say (no surprises)
-- ... to try a lot and keep what works
-- ... to fail forward
-- ... people with a growth-mindset
-
-** I dislike ...
-
-- ... making no mistakes (means we are not pushing hard enough)
-- ... making mistakes twice (means we are not learning fast enough)
-- ... when ego(s) (mine or others) get in the way of moving fast
-  and/or doing something that is good and right
-
-* My life in pictures
+* Appendix - My life in pictures
 
 ** Roland
 
@@ -562,8 +586,3 @@ file:images/aoc.png
 ** (Despite my life-style)@@html:<br>@@I have only one broken bone@@html:<br>@@(but lots of scars :))
 
 #+REVEAL_HTML: <a data-flickr-embed="true" href="https://www.flickr.com/photos/rolandtritsch/8352786325/in/dateposted/" title="My first broken bone (little toe on the right foot :))"><img src="https://live.staticflickr.com/8196/8352786325_e01d364a2b_n.jpg" width="20%" alt="My first broken bone (little toe on the right foot :))"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-
-** AMA
-
-#+REVEAL_HTML: <a data-flickr-embed="true" href="https://www.flickr.com/photos/rolandtritsch/11734671183/in/dateposted/" title="The force is strong in this one"><img src="https://live.staticflickr.com/7345/11734671183_21ddacc2c0_n.jpg" width="20%" alt="The force is strong in this one"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-   
