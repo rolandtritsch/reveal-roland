@@ -663,6 +663,13 @@ habit. - Aristotle
 ** Wisdom
 
 #+REVEAL_HTML: <blockquote>
+Perfection is achieved, not when there is nothing more to add, but
+when there is nothing left to take away. - Antoine de Saint-Exupéry
+#+REVEAL_HTML: </blockquote>
+
+** Wisdom
+
+#+REVEAL_HTML: <blockquote>
 Knowledge is to know that tomatos are not a vegtable, but a
 fruit. Wisdom is not to put them into a fruit salad. - Brian
 O'Driscoll, Outside Center @ IRFU
