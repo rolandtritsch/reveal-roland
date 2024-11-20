@@ -621,6 +621,13 @@ Always be useful! - Thomas the Tank-Engine
 If you know your why, you can endure any how! - Nietzsche
 #+REVEAL_HTML: </blockquote>
 
+** Leadership
+
+#+REVEAL_HTML: <blockquote>
+If you feel pain, you are alive. If you feel other people's pain, you
+are a human being. ― Leo Tolstoy
+#+REVEAL_HTML: </blockquote>
+
 ** Wisdom
 
 #+REVEAL_HTML: <blockquote>
