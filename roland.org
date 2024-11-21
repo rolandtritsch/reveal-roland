@@ -670,6 +670,23 @@ when there is nothing left to take away. - Antoine de Saint-Exupéry
 ** Wisdom
 
 #+REVEAL_HTML: <blockquote>
+Learn, earn, return: These are the 3 essential phases of life. - Alan
+Loy McGinnis
+#+REVEAL_HTML: </blockquote>
+
+** Wisdom
+
+#+REVEAL_HTML: <blockquote>
+Someone is sitting in the shade today because someone planted a tree a
+long time ago. - Warren Buffet
+
+The purpose of my life is to plant trees that I will not get to use. -
+Roland Tritsch
+#+REVEAL_HTML: </blockquote>
+
+** Wisdom
+
+#+REVEAL_HTML: <blockquote>
 Knowledge is to know that tomatos are not a vegtable, but a
 fruit. Wisdom is not to put them into a fruit salad. - Brian
 O'Driscoll, Outside Center @ IRFU
