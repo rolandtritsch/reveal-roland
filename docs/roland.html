@@ -1,40 +1,209 @@
-<!DOCTYPE html>
-<html lang="en">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<meta charset="utf-8"/>
+<!-- 2024-11-22 Fri 10:16 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Roland</title>
-<meta name="author" content="Roland Tritsch"/>
-<meta name="description" content=""/>
-<meta name="keywords" content=""/>
-<style type="text/css">
-.underline { text-decoration: underline; }
+<meta name="author" content="Roland Tritsch" />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
 </style>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css"/>
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/beige.css" id="theme"/>
-
-
-<!-- If the query includes 'print-pdf', include the PDF print sheet -->
-<script>
-    if( window.location.search.match( /print-pdf/gi ) ) {
-        var link = document.createElement( 'link' );
-        link.rel = 'stylesheet';
-        link.type = 'text/css';
-        link.href = 'https://cdn.jsdelivr.net/npm/reveal.js/css/print/pdf.css';
-        document.getElementsByTagName( 'head' )[0].appendChild( link );
-    }
-</script>
 </head>
 <body>
-<div class="reveal">
-<div class="slides">
-<section id="sec-title-slide"><h1 class="title">Roland</h1><p class="subtitle">THE User Manual</p>
-<h2 class="author">Roland Tritsch</h2><p class="date">Created: 2024-11-01 Fri 12:30</p>
-</section>
+<div id="content" class="content">
+<h1 class="title">Roland
+<br />
+<span class="subtitle">THE User Manual</span>
+</h1>
 
-<section>
-<section id="slide-org031a93c">
-<h2 id="org031a93c">User Manual?!?! Why?</h2>
+<div id="outline-container-orgfb2b727" class="outline-2">
+<h2 id="orgfb2b727">User Manual?!?! Why?</h2>
+<div class="outline-text-2" id="text-orgfb2b727">
 <p>
 To speed up the learning (how to work together) &#x2026;
 </p>
@@ -43,127 +212,128 @@ To speed up the learning (how to work together) &#x2026;
 Shorten the time to get to an understanding how good and right looks like &#x2026;
 </p>
 
-<div class="column" style="float: left; width: 60%">
-<ul>
+<ul class="org-ul">
 <li>Who is Roland?</li>
 <li>What does Roland like/dislike when working together?</li>
 <li>What I expect and what you can expect!</li>
 <li>How to help Roland, so that he can help you?</li>
-
 </ul>
 </div>
 
-<div class="column" style="float: right; width: 40%"><img src="./images/roland-tritsch-exec.png" width="80%"/></div>
+<div id="outline-container-org124f500" class="outline-3">
+<h3 id="org124f500">BTW &#x2026; Do one for yourself!!!</h3>
+</div>
 
-</section>
-<section id="slide-orgdd47081">
-<h3 id="orgdd47081">BTW &#x2026; Do one for yourself!!!</h3>
-
-</section>
-<section id="slide-org858de3c">
-<h3 id="org858de3c">Your Introduction</h3>
-<ul>
+<div id="outline-container-orgddf9136" class="outline-3">
+<h3 id="orgddf9136">Your Introduction</h3>
+<div class="outline-text-3" id="text-orgddf9136">
+<ul class="org-ul">
 <li>What do you do?</li>
 <li>Why are you here?</li>
 <li>What is your superpower?</li>
-
 </ul>
+</div>
+</div>
 
-</section>
-<section id="slide-org00e65ba">
-<h3 id="org00e65ba">My Superpower is &#x2026;</h3>
+<div id="outline-container-orge5983f3" class="outline-3">
+<h3 id="orge5983f3">My Superpower is &#x2026;</h3>
+<div class="outline-text-3" id="text-orge5983f3">
 <p>
 &#x2026; that I am very good at helping people to discover and develop
 their superpower(s).
 </p>
+</div>
+</div>
+</div>
 
-</section>
-</section>
-<section>
-<section id="slide-org60aa2eb">
-<h2 id="org60aa2eb">Who is Roland?</h2>
-<img src="./images/about.png" width="100%"/>
+<div id="outline-container-org4823ff5" class="outline-2">
+<h2 id="org4823ff5">Who is Roland?</h2>
+<div class="outline-text-2" id="text-org4823ff5">
+</div>
 
-</section>
-<section id="slide-orgbddf02d">
-<h3 id="orgbddf02d">Manager</h3>
-<ul>
+<div id="outline-container-orgabd54ad" class="outline-3">
+<h3 id="orgabd54ad">Manager</h3>
+<div class="outline-text-3" id="text-orgabd54ad">
+<ul class="org-ul">
 <li>Building functional teams and functional systems</li>
 <li>Making engineers grow and users smile</li>
 <li>Explorer of remote-first cultures</li>
-
 </ul>
+</div>
+</div>
 
-</section>
-<section id="slide-org7146b0e">
-<h3 id="org7146b0e">Software Craftsman</h3>
-<ul>
+<div id="outline-container-orgf8db035" class="outline-3">
+<h3 id="orgf8db035">Software Craftsman</h3>
+<div class="outline-text-3" id="text-orgf8db035">
+<ul class="org-ul">
 <li>Functional Programming</li>
 <li>SaaS Backends</li>
 <li>Shared-Nothing Micro-Services Architectures
-<ul>
+<ul class="org-ul">
 <li>Single-Purpose Services</li>
 <li>Using events to propagate state</li>
-
 </ul></li>
-
 </ul>
+</div>
+</div>
 
-</section>
-<section id="slide-org72a5d3f">
-<h3 id="org72a5d3f">Husband &amp; Father</h3>
-<img src="./images/family.png" width="80%"/>
+<div id="outline-container-orgec1099e" class="outline-3">
+<h3 id="orgec1099e">Husband &amp; Father</h3>
+<div class="outline-text-3" id="text-orgec1099e">
+</div>
+</div>
 
-</section>
-<section id="slide-org2cd6c0f">
-<h3 id="org2cd6c0f">Professional Background</h3>
-<ul>
+<div id="outline-container-org05b43ae" class="outline-3">
+<h3 id="org05b43ae">Professional Background</h3>
+<div class="outline-text-3" id="text-org05b43ae">
+<ul class="org-ul">
 <li>Degree in Computer Science</li>
 <li>Software Craftsman, Software Engineering Executive, &#x2026;</li>
 <li>Builder/Runner of functional teams and functional systems (pun intended)
-<ul>
+<ul class="org-ul">
 <li>Proponent of <a href="http://www.tritsch.org/2018/11/30/aoc-final.html">functional programming</a> (Scala, Haskell, Kotlin, &#x2026;)</li>
-
 </ul></li>
 <li>Explorer of <a href="https://tedn.life/2020/03/31/the-extreme-digital-nomad-tedn">extreme digital nomading</a> and remote-first cultures</li>
 <li>IONA, <a href="https://www.flickr.com/photos/rolandtritsch/6475910455/in/dateposted/">Gilt</a>, Nitro, Community, &#x2026;
-<ul>
+<ul class="org-ul">
 <li>Run teams that <span class="underline">own</span> large, distributed SaaS backends</li>
-
 </ul></li>
-
 </ul>
+</div>
+</div>
 
-</section>
-<section id="slide-org24be3f1">
-<h3 id="org24be3f1">Personal Background</h3>
-<ul>
+<div id="outline-container-orgcad5146" class="outline-3">
+<h3 id="orgcad5146">Personal Background</h3>
+<div class="outline-text-3" id="text-orgcad5146">
+<ul class="org-ul">
 <li>Born and raised in Germany</li>
 <li>Living in Ireland (for 20 years)</li>
 <li>Married to a greek woman (for 25 years)
-<ul>
+<ul class="org-ul">
 <li>One (tri-lingual) (grown-up) son</li>
-
 </ul></li>
 <li>Like to <a href="https://github.com/rolandtritsch">code</a>. Even in my spare time/while on vacation</li>
 <li>Like to hike. Like to meet people (preferably in a pub :))</li>
-
 </ul>
+</div>
+</div>
 
-</section>
-<section id="slide-orgb969ab4">
-<h3 id="orgb969ab4">What I value in people</h3>
-<img src="./images/people-values.png" width="100%"/>
+<div id="outline-container-org39bc8ff" class="outline-3">
+<h3 id="org39bc8ff">What I value in people</h3>
+<div class="outline-text-3" id="text-org39bc8ff">
+</div>
+</div>
 
-</section>
-<section id="slide-orgdaa27d2">
-<h3 id="orgdaa27d2">What I value in organisations</h3>
-<img src="./images/company-values.png" width="50%"/>
+<div id="outline-container-org0178f3d" class="outline-3">
+<h3 id="org0178f3d">What I value in organisations</h3>
+<div class="outline-text-3" id="text-org0178f3d">
+</div>
+</div>
 
-</section>
-<section id="slide-orgea0b34d">
-<h3 id="orgea0b34d">I believe in &#x2026;</h3>
-<ul>
+<div id="outline-container-org090ef39" class="outline-3">
+<h3 id="org090ef39">I believe in &#x2026;</h3>
+<div class="outline-text-3" id="text-org090ef39">
+<ul class="org-ul">
 <li>&#x2026; <b>people-first</b>. Get good people and <code>unleash</code> their
 superpowers. Make them grow and put value on CVs. Always. Every day</li>
 <li>&#x2026; <b>purpose-first</b>. You need to understand why we do what we do and
@@ -171,90 +341,86 @@ why you do what you do. And you need to like it. You need to be able
 to connect our purpose to your personal mission/vision/purpose</li>
 <li>&#x2026; the value of <b>functional programming</b> (low cost of ownership;
 specifically Scala and Haskell)</li>
-
 </ul>
+</div>
+</div>
 
-</section>
-<section id="slide-orgf21b210">
-<h3 id="orgf21b210">I believe in &#x2026;</h3>
-<ul>
+<div id="outline-container-org56eda52" class="outline-3">
+<h3 id="org56eda52">I believe in &#x2026;</h3>
+<div class="outline-text-3" id="text-org56eda52">
+<ul class="org-ul">
 <li>&#x2026; building <b>balanced and sustainable</b> engineering orgs (where
 people <b>trust and respect</b> each other; and no time and no energy and
 no money is wasted)</li>
 <li>&#x2026; the value of <b>remote-first</b> (done right) as the next better way to
 build and run engineering orgs (up to ~100 engineers)</li>
-
 </ul>
+</div>
+</div>
 
-</section>
-<section id="slide-org4364b1e">
-<h3 id="org4364b1e"><a href="https://drive.google.com/open?id=0B27uLCKisOleQS1wRWZDN1lPOUE">MBTI</a> - Leia &amp; Darth</h3>
-<div class="column" style="float: left; width: 60%">
-<ul>
+<div id="outline-container-org5760d22" class="outline-3">
+<h3 id="org5760d22"><a href="https://drive.google.com/open?id=0B27uLCKisOleQS1wRWZDN1lPOUE">MBTI</a> - Leia &amp; Darth</h3>
+<div class="outline-text-3" id="text-org5760d22">
+<ul class="org-ul">
 <li>ENTJ &amp; ESTJ
-<ul>
+<ul class="org-ul">
 <li>Extroverted (strong)</li>
 <li>Thinking (strong)</li>
 <li>Judging (strong)</li>
 <li>Sensing/Intuition (50/50)</li>
-
 </ul></li>
 <li>The Executive &amp; The Supervisor</li>
 <li>Princess Leia &amp; Darth Vader</li>
-
 </ul>
 </div>
+</div>
 
-<div class="column" style="float: right; width: 40%"><img src="./images/mbti.png" width="90%"/></div>
+<div id="outline-container-orgcf7eddd" class="outline-3">
+<h3 id="orgcf7eddd">MBTI - Bob &amp; Tom</h3>
+<div class="outline-text-3" id="text-orgcf7eddd">
+</div>
+</div>
 
-</section>
-<section id="slide-orgbd54e8d">
-<h3 id="orgbd54e8d">MBTI - Bob &amp; Tom</h3>
-<div class="column" style="float: left; width: 50%; display: inline-block; vertical-align: middle"><img src="./images/bob.png" width="78%"/><center><b>Can we do/fix it? Yes, we can!</b></center></div>
+<div id="outline-container-org30e23c1" class="outline-3">
+<h3 id="org30e23c1"><a href="https://drive.google.com/open?id=0B27uLCKisOleSHk4cG5aOEVCWUk">DISC</a> - Motivating Director</h3>
+<div class="outline-text-3" id="text-org30e23c1">
+</div>
 
-<div class="column" style="float: right; width: 50%; display: inline-block; vertical-align: middle"><img src="./images/tom.png"/><center><b>Always be useful!!!</b></center></div>
-
-</section>
-<section id="slide-orgb3c46ea">
-<h3 id="orgb3c46ea"><a href="https://drive.google.com/open?id=0B27uLCKisOleSHk4cG5aOEVCWUk">DISC</a> - Motivating Director</h3>
-<img src="./images/disc.png" width="50%"/>
-
-</section>
-<section id="slide-org3d493f2">
-<h4 id="org3d493f2">DISC - Strength &#x2026;</h4>
-<ul>
+<div id="outline-container-org9ff94d0" class="outline-4">
+<h4 id="org9ff94d0">DISC - Strength &#x2026;</h4>
+<div class="outline-text-4" id="text-org9ff94d0">
+<ul class="org-ul">
 <li>Sees innovation as a necessity
-<ul>
+<ul class="org-ul">
 <li>Being different/unique is good/valueable</li>
-
 </ul></li>
 <li>Boundless energy. Multi-purpose weapon</li>
 <li>A natural go-getter with a great enthusiasm for life</li>
-
 </ul>
+</div>
+</div>
 
-</section>
-<section id="slide-org3cb0fb2">
-<h4 id="org3cb0fb2">DISC - Weaknesses &#x2026;</h4>
-<ul>
+<div id="outline-container-org414f7de" class="outline-4">
+<h4 id="org414f7de">DISC - Weaknesses &#x2026;</h4>
+<div class="outline-text-4" id="text-org414f7de">
+<ul class="org-ul">
 <li>Leaps before he looks
-<ul>
+<ul class="org-ul">
 <li>Tendency to see things more positive then they are</li>
-
 </ul></li>
 <li>Overly dismissive of negative feedback
-<ul>
+<ul class="org-ul">
 <li>Being critical (in a good way) is perceived as being negative</li>
-
 </ul></li>
 <li>Doesn't always take time to hear others views</li>
-
 </ul>
+</div>
+</div>
 
-</section>
-<section id="slide-org0d5eb48">
-<h4 id="org0d5eb48">DISC - Possible Blindspots &#x2026;</h4>
-<ul>
+<div id="outline-container-org7ed7633" class="outline-4">
+<h4 id="org7ed7633">DISC - Possible Blindspots &#x2026;</h4>
+<div class="outline-text-4" id="text-org7ed7633">
+<ul class="org-ul">
 <li>He is seen to perform better when he reins in his boldness, energy
 and enjoyment of being in control to a level where other people take
 priority. He is a born entrepreneur who is constantly overselling
@@ -263,906 +429,1010 @@ may rely on personal forcefulness and, if necessary, intimidation to
 achieve his aims</li>
 <li>As he values creativity and innovation, he sometimes ignores the
 standard way of doing something because it lacks originality</li>
-
 </ul>
+</div>
+</div>
 
-</section>
-<section id="slide-orgae12afa">
-<h4 id="orgae12afa">DISC - Ideal Environment &#x2026;</h4>
-<ul>
+<div id="outline-container-org0315726" class="outline-4">
+<h4 id="org0315726">DISC - Ideal Environment &#x2026;</h4>
+<div class="outline-text-4" id="text-org0315726">
+<ul class="org-ul">
 <li>He continuously contributes to organisational improvement
 (building/developing people)</li>
 <li>Activities, variety and change are constantly taking place</li>
 <li>He can turn a vision (a big idea) into reality</li>
-
 </ul>
+</div>
+</div>
+</div>
 
-</section>
-<section id="slide-org27c9d26">
-<h3 id="org27c9d26">Ego State</h3>
-<div class="column" style="float: left; width: 60%">
-<ul>
+<div id="outline-container-org16be3c1" class="outline-3">
+<h3 id="org16be3c1">Ego State</h3>
+<div class="outline-text-3" id="text-org16be3c1">
+<ul class="org-ul">
 <li>Balanced (most of the time)</li>
 <li>Strong child ego</li>
 <li>CTO, playing, learning, taking risk, falling (and getting up again), curious, &#x2026;</li>
-
 </ul>
 </div>
+</div>
 
-<div class="column" style="float: right; width: 40%"><img src="./images/ego.jpeg" width="100%"/></div>
-
-</section>
-<section id="slide-org4942dc3">
-<h3 id="org4942dc3">Leadership</h3>
-<blockquote>
+<div id="outline-container-orga8e86c1" class="outline-3">
+<h3 id="orga8e86c1">Leadership</h3>
+<div class="outline-text-3" id="text-orga8e86c1">
 <p>
 Leadership comes down to believing so strongly in the future you want
 that your enthusiasm, confidence, and drive in getting there infects
 those around you and the reality of today transforms into that vision
 of tomorrow through shared work and sacrifice. - Max Levchin, CTO @ Paypal
 </p>
-</blockquote>
+</div>
+</div>
 
-</section>
-<section id="slide-orged19c37">
-<h3 id="orged19c37">Leadership</h3>
-<blockquote>
+<div id="outline-container-orgf67fb8d" class="outline-3">
+<h3 id="orgf67fb8d">Leadership</h3>
+<div class="outline-text-3" id="text-orgf67fb8d">
 <p>
 Leadership is the ability to inspire others to deliver on shared
 objectives - Jeff Weiner, CEO @ Linked-In
 </p>
-</blockquote>
+</div>
+</div>
 
-</section>
-<section id="slide-org4a12503">
-<h3 id="org4a12503">I am good at/I like to &#x2026;</h3>
-<div class="column" style="float: left; width: 60%">
-<ul>
+<div id="outline-container-org48db5eb" class="outline-3">
+<h3 id="org48db5eb">I am good at/I like to &#x2026;</h3>
+<div class="outline-text-3" id="text-org48db5eb">
+<ul class="org-ul">
 <li>Building and running functional teams and functional systems</li>
 <li>Making engineers grow (put value on CVs) and users smile (deliver
 value to customers)</li>
 <li>Find and articulate a mission that makes a difference, attract and
 retain great people and then … execute!</li>
 <li>Raising the bar!</li>
-
 </ul>
 </div>
+</div>
 
-<div class="column" style="float: right; width: 40%"><img src="./images/raise.png" width="80%"/></div>
-
-</section>
-<section id="slide-org5ac8d74">
-<h3 id="org5ac8d74">(Naturally) I am/can be &#x2026;</h3>
-<ul>
+<div id="outline-container-orgf6e4a89" class="outline-3">
+<h3 id="orgf6e4a89">(Naturally) I am/can be &#x2026;</h3>
+<div class="outline-text-3" id="text-orgf6e4a89">
+<ul class="org-ul">
 <li>&#x2026; (too) action-oriented &#x2026;</li>
 <li>&#x2026; loud &amp; obnoxious &#x2026;</li>
 <li>&#x2026; impatient &amp; hot-tempered &#x2026;</li>
 <li>&#x2026; and I need to use some of my energy to moderate that!</li>
-
 </ul>
+</div>
+</div>
 
-</section>
-<section id="slide-orgfea08dc">
-<h3 id="orgfea08dc">Means &#x2026;</h3>
-<div class="column" style="float: left; width: 50%">
+<div id="outline-container-org257381e" class="outline-3">
+<h3 id="org257381e">Means &#x2026;</h3>
+<div class="outline-text-3" id="text-org257381e">
 <p>
 &#x2026; when I am running low on energy or when I am tired &#x2026; sooner or later/occasionally &#x2026; somebody has to sing a lullaby!!!
 </p>
 </div>
+</div>
 
-<div class="column" style="float: right; width: 50%"><img src="./images/hulk.png"></div>
-
-</section>
-<section id="slide-org9a13a73">
-<h3 id="org9a13a73">I (also) need help with &#x2026;</h3>
-<ul>
+<div id="outline-container-org74a82d6" class="outline-3">
+<h3 id="org74a82d6">I (also) need help with &#x2026;</h3>
+<div class="outline-text-3" id="text-org74a82d6">
+<ul class="org-ul">
 <li>&#x2026; diving into the details!</li>
 <li>&#x2026; turning a strategy into tactics!</li>
 <li>&#x2026; listening (talking too much)!</li>
 <li>&#x2026; going slow (to go faster)!
-<ul>
+<ul class="org-ul">
 <li>Judging too early/fast</li>
 <li>(Sometimes) Missing information</li>
-
 </ul></li>
-
 </ul>
+</div>
+</div>
+</div>
 
-</section>
-</section>
-<section>
-<section id="slide-org1e069fe">
-<h2 id="org1e069fe">Expectations</h2>
+<div id="outline-container-orga832c03" class="outline-2">
+<h2 id="orga832c03">Expectations</h2>
+<div class="outline-text-2" id="text-orga832c03">
 <p>
 You should always know why what you do matters. You should always feel
 a sense of purpose. You should always know what we are doing and why
 we are doing it
 </p>
+</div>
 
-</section>
-<section id="slide-org8927da1">
-<h3 id="org8927da1">Yours &amp; Mine</h3>
+<div id="outline-container-org8512335" class="outline-3">
+<h3 id="org8512335">Yours &amp; Mine</h3>
+<div class="outline-text-3" id="text-org8512335">
 <p>
 What you can expect from me and what I expect from you
 </p>
 
-<ul>
+<ul class="org-ul">
 <li>Trust and respect. Radical candor. Productive friction</li>
 <li>Say-what-you-do and do-what-you-say. Make promises and keep them
 (and if not &#x2026; learn &#x2026; and move on)</li>
 <li>Be a leader. Be an inspiration to others. Drive yourself and others</li>
-
 </ul>
+</div>
+</div>
 
-</section>
-<section id="slide-org563e19f">
-<h3 id="org563e19f">Yours &amp; Mine</h3>
-<ul>
+<div id="outline-container-org667d7b8" class="outline-3">
+<h3 id="org667d7b8">Yours &amp; Mine</h3>
+<div class="outline-text-3" id="text-org667d7b8">
+<ul class="org-ul">
 <li>Have a growth-mindset. Manage your ego. Grow. Make mistakes
 (once). Keep on trying to be(come) a better version of yourself
 (every day, month, year). Close the potential-gap (every day; for
 yourself and the company; be(come) the best version of yourself)</li>
 <li>Have (strong) opinions, weakly held</li>
 <li>Be decent. Be ambitious. Be competent</li>
-
 </ul>
+</div>
+</div>
+</div>
 
-</section>
-</section>
-<section>
-<section id="slide-org6b8813a">
-<h2 id="org6b8813a">AMA</h2>
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/rolandtritsch/11734671183/in/dateposted/" title="The force is strong in this one"><img src="https://live.staticflickr.com/7345/11734671183_21ddacc2c0_n.jpg" width="20%" alt="The force is strong in this one"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<div id="outline-container-org99d7729" class="outline-2">
+<h2 id="org99d7729">AMA</h2>
+<div class="outline-text-2" id="text-org99d7729">
+</div>
+</div>
 
-</section>
-</section>
-<section>
-<section id="slide-orgc08203e">
-<h2 id="orgc08203e">Appendix - (More of what) I like &#x2026;</h2>
-<ul>
+<div id="outline-container-org0d10bef" class="outline-2">
+<h2 id="org0d10bef">Appendix - (More of what) I like &#x2026;</h2>
+<div class="outline-text-2" id="text-org0d10bef">
+<ul class="org-ul">
 <li>To build relationships and organisations based on trust and
 respect</li>
 <li>Work-/Life-Harmony (I do not like Work-/Live-Balance)</li>
 <li>Grit, showing up, hard work (doing what's right, not what's
 easy/popular), &#x2026;</li>
 <li>Talking to each other, not about each other, &#x2026;</li>
-
 </ul>
+</div>
 
-</section>
-<section id="slide-org02ee8b6">
-<h3 id="org02ee8b6">I like &#x2026;</h3>
-<ul>
+<div id="outline-container-orgc14290e" class="outline-3">
+<h3 id="orgc14290e">I like &#x2026;</h3>
+<div class="outline-text-3" id="text-orgc14290e">
+<ul class="org-ul">
 <li>No surprises
-<ul>
+<ul class="org-ul">
 <li>I will miss the deadline next week vs. I will miss the deadline
 tomorrow</li>
-
 </ul></li>
 <li>Ownership &amp; accountability
-<ul>
+<ul class="org-ul">
 <li>Say what you do &amp; Do what you say</li>
 <li>I f&#x2026;ed-up &#x2026; and here is what I learned and what I am going to
 do about it</li>
-
 </ul></li>
-
 </ul>
+</div>
+</div>
 
-</section>
-<section id="slide-org0a8e2c2">
-<h3 id="org0a8e2c2">I like &#x2026;</h3>
-<ul>
+<div id="outline-container-org432c46b" class="outline-3">
+<h3 id="org432c46b">I like &#x2026;</h3>
+<div class="outline-text-3" id="text-org432c46b">
+<ul class="org-ul">
 <li>Being on time, being reliable, say-what-you-do/do-what-you-say,
 making promises and keeping them (and if not &#x2026; appologize, learn
 &#x2026; and move on), &#x2026;</li>
 <li>Productive friction, disagree and commit, radical candor, &#x2026;</li>
 <li>Do the right thing and do it right and do it right now</li>
 <li>Building a place where great engineers can do their best work
-<ul>
+<ul class="org-ul">
 <li>Where &#x2026; talent meets passion and purpose</li>
 <li>Where &#x2026; mastery meets autonomy and purpose</li>
 <li>Where &#x2026; accountability meets autonomy and authority</li>
-
 </ul></li>
-
 </ul>
+</div>
+</div>
 
-</section>
-<section id="slide-orga31a162">
-<h3 id="orga31a162">I like &#x2026;</h3>
-<ul>
+<div id="outline-container-orgcd6ba44" class="outline-3">
+<h3 id="orgcd6ba44">I like &#x2026;</h3>
+<div class="outline-text-3" id="text-orgcd6ba44">
+<ul class="org-ul">
 <li>Good hiring
-<ul>
+<ul class="org-ul">
 <li>Nice/decent, humble/ego-less, intelligent people</li>
 <li>That like to solve problems (and are good at it)</li>
 <li>With good judgement (and a lot of common sense)</li>
 <li>And good desicion making skills (using groups of people) (and that
 are passionate about software engineering and writing good,
 maintainable code) (and that have a <a href="https://www.youtube.com/watch?v=KUWn_TJTrnU">growth mindset</a>)</li>
-
 </ul></li>
-
 </ul>
+</div>
+</div>
 
-</section>
-<section id="slide-org9d41d6a">
-<h3 id="org9d41d6a">I like &#x2026;</h3>
-<ul>
+<div id="outline-container-org10642d6" class="outline-3">
+<h3 id="org10642d6">I like &#x2026;</h3>
+<div class="outline-text-3" id="text-org10642d6">
+<ul class="org-ul">
 <li>Strategic thinking/planning
-<ul>
+<ul class="org-ul">
 <li>Develop a sense of direction
-<ul>
+<ul class="org-ul">
 <li>&#x2026; for the next N steps/time-units</li>
-
 </ul></li>
 <li>Execute on the first step/time-unit</li>
 <li>Rinse and repeat</li>
-
 </ul></li>
-
 </ul>
+</div>
+</div>
 
-</section>
-<section id="slide-org3734e00">
-<h3 id="org3734e00">I like &#x2026;</h3>
-<ul>
+<div id="outline-container-org1085642" class="outline-3">
+<h3 id="org1085642">I like &#x2026;</h3>
+<div class="outline-text-3" id="text-org1085642">
+<ul class="org-ul">
 <li>Cameradery &#x2026;
-<ul>
+<ul class="org-ul">
 <li>we are in it together</li>
 <li>we have each others back</li>
-
 </ul></li>
 <li>&#x2026; to be useful</li>
 <li>&#x2026; to complement (not compete)
-<ul>
+<ul class="org-ul">
 <li>be the oil in the gearbox</li>
 <li>be(come) the missing puzzle-piece</li>
-
 </ul></li>
 <li>Big/relevant/important ideas/projects/work
-<ul>
+<ul class="org-ul">
 <li>&#x2026; which (sometimes) makes me go into a direction where I try to
 boil the ocean.</li>
-
 </ul></li>
-
 </ul>
+</div>
+</div>
 
-</section>
-<section id="slide-orgba1be19">
-<h3 id="orgba1be19">I like &#x2026;</h3>
-<ul>
+<div id="outline-container-org8ea7257" class="outline-3">
+<h3 id="org8ea7257">I like &#x2026;</h3>
+<div class="outline-text-3" id="text-org8ea7257">
+<ul class="org-ul">
 <li>Progress over perfection</li>
 <li>Like/prefer to be the lowest performing team member in an A-team rather than the top performer in a B-team</li>
 <li>Headsets/Good-Audio</li>
 <li>&#x2026; to be effective and efficient (I do not like waste of time,
 engergy and money; e.g. bad meetings)</li>
 <li>&#x2026; decency, ambition and competence</li>
-
 </ul>
+</div>
+</div>
 
-</section>
-<section id="slide-org7d3a0b0">
-<h3 id="org7d3a0b0">I like &#x2026;</h3>
-<ul>
+<div id="outline-container-org4378ab4" class="outline-3">
+<h3 id="org4378ab4">I like &#x2026;</h3>
+<div class="outline-text-3" id="text-org4378ab4">
+<ul class="org-ul">
 <li>&#x2026; being on-time (being professional)</li>
 <li>&#x2026; being effective/efficient (do not waste time, money, energy
 (unnecessarily))</li>
 <li>&#x2026; cameradery (a/the feeling of being in it together; building
 teams that trust and respect each other)</li>
-
 </ul>
+</div>
+</div>
 
-</section>
-<section id="slide-org6503b77">
-<h3 id="org6503b77">I like &#x2026;</h3>
-<ul>
+<div id="outline-container-org750302a" class="outline-3">
+<h3 id="org750302a">I like &#x2026;</h3>
+<div class="outline-text-3" id="text-org750302a">
+<ul class="org-ul">
 <li>&#x2026; to be kind (not nice; embrace radical candor and productive
 friction)
-<ul>
+<ul class="org-ul">
 <li>Build safe places, where you can (respectfully) disagree with each
 other (but then also disagree-and-commit)</li>
-
 </ul></li>
 <li>&#x2026; (wired) headsets (I do not need a headset, I can hear you well)</li>
-
 </ul>
+</div>
+</div>
 
-</section>
-<section id="slide-orgc7686be">
-<h3 id="orgc7686be">I like &#x2026;</h3>
-<ul>
+<div id="outline-container-org19d437e" class="outline-3">
+<h3 id="org19d437e">I like &#x2026;</h3>
+<div class="outline-text-3" id="text-org19d437e">
+<ul class="org-ul">
 <li>&#x2026; competence (expertise + experience + intelligence)</li>
 <li>&#x2026; building beautiful, impactful things/systems</li>
 <li>&#x2026; say what you do, do what you say (no surprises)</li>
 <li>&#x2026; to try a lot and keep what works</li>
 <li>&#x2026; to fail forward</li>
-
 </ul>
+</div>
+</div>
 
-</section>
-<section id="slide-orge1f873a">
-<h3 id="orge1f873a">I like &#x2026;</h3>
-<ul>
+<div id="outline-container-org613e481" class="outline-3">
+<h3 id="org613e481">I like &#x2026;</h3>
+<div class="outline-text-3" id="text-org613e481">
+<ul class="org-ul">
 <li>&#x2026; people with a growth-mindset</li>
 <li>&#x2026; poeple with no ego (or at least people, who know how to manage
 their ego)</li>
-
 </ul>
+</div>
+</div>
 
-</section>
-<section id="slide-org6dc59ac">
-<h3 id="org6dc59ac">I dislike &#x2026;</h3>
-<ul>
+<div id="outline-container-org2ef8fdb" class="outline-3">
+<h3 id="org2ef8fdb">I dislike &#x2026;</h3>
+<div class="outline-text-3" id="text-org2ef8fdb">
+<ul class="org-ul">
 <li>&#x2026; making no mistakes (means we are not pushing hard enough)</li>
 <li>&#x2026; making mistakes twice (means we are not learning fast enough)</li>
 <li>&#x2026; when ego(s) (mine or others) get in the way of moving fast
 and/or doing something that is good and right</li>
-
 </ul>
-
-</section>
-</section>
-<section>
-<section id="slide-org13ea161">
-<h2 id="org13ea161">Appendix - (More about) Roland</h2>
-<div class="outline-text-2" id="text-org13ea161">
 </div>
-</section>
-<section id="slide-orgefe0679">
-<h3 id="orgefe0679">I am a Software Craftsman</h3>
-<ul>
+</div>
+</div>
+
+<div id="outline-container-org094183b" class="outline-2">
+<h2 id="org094183b">Appendix - (More about) Roland</h2>
+<div class="outline-text-2" id="text-org094183b">
+</div>
+<div id="outline-container-org2c40e64" class="outline-3">
+<h3 id="org2c40e64">I am a Software Craftsman</h3>
+<div class="outline-text-3" id="text-org2c40e64">
+<ul class="org-ul">
 <li>Build and own/operate functional (minimal) systems, that solve a problem (that needs solving)</li>
 <li>Build with functional programming languages</li>
 <li>Build gardens, not jungles (managable cost of ownership)</li>
-
 </ul>
+</div>
+</div>
 
-</section>
-<section id="slide-orgc34365e">
-<h3 id="orgc34365e">I am a Software Craftsman</h3>
-<ul>
+<div id="outline-container-org2624faa" class="outline-3">
+<h3 id="org2624faa">I am a Software Craftsman</h3>
+<div class="outline-text-3" id="text-org2624faa">
+<ul class="org-ul">
 <li>My dad is a craftsman (toolsmith). I learned early in life &#x2026;
-<ul>
+<ul class="org-ul">
 <li>&#x2026; that you plan, execute, clean/sharpen the tools, rinse and repeat</li>
 <li>&#x2026; to sign my work (it needs to be beautiful; you need to be proud of it)</li>
 <li>&#x2026; that the quality of the tools and material and the level of the craftmanship determines the quality of what you build</li>
-
 </ul></li>
-
 </ul>
+</div>
+</div>
 
-</section>
-<section id="slide-orgc9ff6f2">
-<h3 id="orgc9ff6f2">I am a Manager</h3>
-<ul>
+<div id="outline-container-orge6367ab" class="outline-3">
+<h3 id="orge6367ab">I am a Manager</h3>
+<div class="outline-text-3" id="text-orge6367ab">
+<ul class="org-ul">
 <li>Building functional teams (were people trust and respect each other)</li>
 <li>Building (remote-first) places where great engineers can do there best work</li>
 <li>Help people to find/discover their superpower (everybody got one) and develop it</li>
-
 </ul>
+</div>
+</div>
 
-</section>
-<section id="slide-org4b3dd8a">
-<h3 id="org4b3dd8a">I am a Leader</h3>
-<ul>
+<div id="outline-container-orgbbd40f4" class="outline-3">
+<h3 id="orgbbd40f4">I am a Leader</h3>
+<div class="outline-text-3" id="text-orgbbd40f4">
+<ul class="org-ul">
 <li>Find problems that need/deserve solving (make the planet a better place)</li>
 <li>Inspire others to deliver on shared objectives - Jeff Weiner</li>
 <li>Be strong. Be kind. Be happy</li>
-
 </ul>
+</div>
+</div>
 
-</section>
-<section id="slide-org951925b">
-<h3 id="org951925b">Little known fact</h3>
-<img src="https://live.staticflickr.com/5301/5601446934_1d3c807612_z.jpg" width="60%"/>
+<div id="outline-container-orgfe0d527" class="outline-3">
+<h3 id="orgfe0d527">Little known fact</h3>
+<div class="outline-text-3" id="text-orgfe0d527">
+</div>
+</div>
 
-</section>
-<section id="slide-org65b607c">
-<h3 id="org65b607c">The three things that made me the man I am today</h3>
-<ul>
+<div id="outline-container-org04d6743" class="outline-3">
+<h3 id="org04d6743">The three things that made me the man I am today</h3>
+<div class="outline-text-3" id="text-org04d6743">
+<ul class="org-ul">
 <li>Cycling</li>
 <li>The scholarship (Carl Duisberg Society)</li>
 <li>My wife and my son</li>
-
 </ul>
+</div>
+</div>
 
-</section>
-<section id="slide-org0055c58">
-<h3 id="org0055c58">Resources</h3>
-<ul>
+<div id="outline-container-org3f2a05b" class="outline-3">
+<h3 id="org3f2a05b">Resources</h3>
+<div class="outline-text-3" id="text-org3f2a05b">
+<ul class="org-ul">
 <li><a href="http://www.tritsch.org/about/">About</a></li>
 <li><a href="https://www.linkedin.com/in/rolandtritsch/">Linked-In</a></li>
 <li><a href="https://www.flickr.com/photos/rolandtritsch">Flickr</a></li>
 <li><a href="https://github.com/rolandtritsch">GitHub</a></li>
 <li><a href="https://www.instagram.com/theextremedigitalnomad/">TheExtremeDigitalNomad</a></li>
-
 </ul>
+</div>
+</div>
 
-</section>
-<section id="slide-orgd923960">
-<h3 id="orgd923960">Blogs/Thoughts</h3>
-<ul>
+<div id="outline-container-orgdec0fb9" class="outline-3">
+<h3 id="orgdec0fb9">Blogs/Thoughts</h3>
+<div class="outline-text-3" id="text-orgdec0fb9">
+<ul class="org-ul">
 <li><a href="http://tedn.life/reveal-iceberg/iceberg.html">Software Gardening and not hiting icebergs</a></li>
 <li><a href="https://tedn.life/2013/02/16/about-broken-windows-and-software-gardening-...-thoughts-from-the-pragmatic-programmer/">Fixing broken windows</a></li>
 <li><a href="http://tedn.life/reveal-the-power/why.html">The Power of Why</a></li>
 <li><a href="http://tedn.life/2018/11/30/advent-of-code-...-final-cut-...-and-first-cut/">Functional Programming</a></li>
 <li>Synergy between Product and Engineering
-<ul>
+<ul class="org-ul">
 <li>Build the right thing and build it right</li>
 <li>Understand what the customer wants/needs and complement it with
 what's possible</li>
 <li>Do <b>not</b> <a href="https://tedn.life/2021/02/12/the-first-summit/hack-a-thon-community">build faster horses</a></li>
-
 </ul></li>
-
 </ul>
+</div>
+</div>
 
-</section>
-<section id="slide-org473464c">
-<h3 id="org473464c">(Some) Books</h3>
-<ul>
+<div id="outline-container-orgf0bf499" class="outline-3">
+<h3 id="orgf0bf499">(Some) Books</h3>
+<div class="outline-text-3" id="text-orgf0bf499">
+<ul class="org-ul">
 <li>Man's Search for Meaning - Victor Frankl</li>
 <li>How To Be A Stoic - Massimo Pigliucci</li>
 <li>Clean Code - Robert C. Martin</li>
 <li>The Pragmatic Programmer - Andrew Hunt and David Thomas</li>
 <li>Building a MicroService - Sam Newman</li>
 <li>&#x2026; more</li>
-
 </ul>
+</div>
+</div>
 
-</section>
-<section id="slide-org85cc459">
-<h3 id="org85cc459">I am &#x2026;</h3>
-<ul>
+<div id="outline-container-org6d8ed66" class="outline-3">
+<h3 id="org6d8ed66">I am &#x2026;</h3>
+<div class="outline-text-3" id="text-org6d8ed66">
+<ul class="org-ul">
 <li>A worried and realistic optimist</li>
 <li>The nicest slave driver you have ever worked for</li>
 <li>WIP :)</li>
 <li>???</li>
-
 </ul>
+</div>
+</div>
 
-</section>
-<section id="slide-orgc524877">
-<h3 id="orgc524877">I will &#x2026;</h3>
-<ul>
+<div id="outline-container-orgc5e1cb7" class="outline-3">
+<h3 id="orgc5e1cb7">I will &#x2026;</h3>
+<div class="outline-text-3" id="text-orgc5e1cb7">
+<ul class="org-ul">
 <li>Keep on giving you work until you say stop
-<ul>
+<ul class="org-ul">
 <li>And saying stop is totally acceptable</li>
-
 </ul></li>
-
 </ul>
+</div>
+</div>
 
-</section>
-<section id="slide-org57f0d18">
-<h3 id="org57f0d18">Buttons <b><b>not</b></b> to push &#x2026;</h3>
-<ul>
+<div id="outline-container-orgdc7459b" class="outline-3">
+<h3 id="orgdc7459b">Buttons <b><b>not</b></b> to push &#x2026;</h3>
+<div class="outline-text-3" id="text-orgdc7459b">
+<ul class="org-ul">
 <li>Try(ing) to manage, handle, manipulate, &#x2026; me
-<ul>
+<ul class="org-ul">
 <li>Instead &#x2026; use the front door!</li>
-
 </ul></li>
 <li>(Unnecessarily) Waste &#x2026; time, energy, money, &#x2026;
-<ul>
+<ul class="org-ul">
 <li>Because &#x2026; I like to be effective/efficient (more than right and fast)</li>
 <li>Because &#x2026; I like to work as hard as it needs to be (but not harder)</li>
-
 </ul></li>
 <li>(As a symbol) Not wearing a headset &#x2026;
-<ul>
+<ul class="org-ul">
 <li>Because &#x2026; I perceive it as a lack of care (caring how hard it is to
 hear/understand you)</li>
-
 </ul></li>
-
 </ul>
-
-</section>
-</section>
-<section>
-<section id="slide-orgb2ef2e7">
-<h2 id="orgb2ef2e7">Appendix - Quotes</h2>
-<div class="outline-text-2" id="text-orgb2ef2e7">
 </div>
-</section>
-<section id="slide-orgcee4e71">
-<h3 id="orgcee4e71">Leadership</h3>
-<blockquote>
+</div>
+</div>
+
+<div id="outline-container-org5f1b51a" class="outline-2">
+<h2 id="org5f1b51a">Appendix - Quotes</h2>
+<div class="outline-text-2" id="text-org5f1b51a">
+</div>
+<div id="outline-container-org467a439" class="outline-3">
+<h3 id="org467a439">Leadership</h3>
+<div class="outline-text-3" id="text-org467a439">
 <p>
 Leadership comes down to believing so strongly in the future you want
 that your enthusiasm, confidence, and drive in getting there infects
 those around you and the reality of today transforms into that vision
 of tomorrow through shared work and sacrifice. - Max Levchin, CTO @ Paypal
 </p>
-</blockquote>
+</div>
+</div>
 
-</section>
-<section id="slide-org72c7f26">
-<h3 id="org72c7f26">Leadership</h3>
-<blockquote>
+<div id="outline-container-org22dc1bf" class="outline-3">
+<h3 id="org22dc1bf">Leadership</h3>
+<div class="outline-text-3" id="text-org22dc1bf">
 <p>
 Leadership is the ability to inspire others to deliver on shared
 objectives - Jeff Weiner, CEO @ Linked-In
 </p>
-</blockquote>
+</div>
+</div>
 
-</section>
-<section id="slide-org61c64ba">
-<h3 id="org61c64ba">Leadership</h3>
-<blockquote>
+<div id="outline-container-org6324d08" class="outline-3">
+<h3 id="org6324d08">Leadership</h3>
+<div class="outline-text-3" id="text-org6324d08">
 <p>
 If you're going through hell, don't stop walking. - Winston Churchill
 </p>
-</blockquote>
+</div>
+</div>
 
-</section>
-<section id="slide-orga936c1a">
-<h3 id="orga936c1a">Leadership</h3>
-<blockquote>
+<div id="outline-container-org121bf43" class="outline-3">
+<h3 id="org121bf43">Leadership</h3>
+<div class="outline-text-3" id="text-org121bf43">
 <p>
 You cannot change the trajectory of a stationary object - Andrew
 O'Sullivan, VP Services @ IONA
 </p>
-</blockquote>
+</div>
+</div>
 
-</section>
-<section id="slide-org3a8d037">
-<h3 id="org3a8d037">Leadership</h3>
-<blockquote>
+<div id="outline-container-org429a06c" class="outline-3">
+<h3 id="org429a06c">Leadership</h3>
+<div class="outline-text-3" id="text-org429a06c">
 <p>
 Never waste a good crisis - Winston Churchill, Prime Minister @ UK
 </p>
-</blockquote>
+</div>
+</div>
 
-</section>
-<section id="slide-org7fb0024">
-<h3 id="org7fb0024">Leadership</h3>
-<blockquote>
+<div id="outline-container-orgb618adc" class="outline-3">
+<h3 id="orgb618adc">Leadership</h3>
+<div class="outline-text-3" id="text-orgb618adc">
 <p>
 You either work/care for something or somebody - Roland Tritsch
 </p>
-</blockquote>
+</div>
+</div>
 
-</section>
-<section id="slide-org0e26bb4">
-<h3 id="org0e26bb4">Leadership</h3>
-<blockquote>
+<div id="outline-container-orgad7e3e5" class="outline-3">
+<h3 id="orgad7e3e5">Leadership</h3>
+<div class="outline-text-3" id="text-orgad7e3e5">
 <p>
 People before Process and Problem/Project/Product - Walt Brown
 </p>
-</blockquote>
+</div>
+</div>
 
-</section>
-<section id="slide-org995686d">
-<h3 id="org995686d">Leadership</h3>
-<blockquote>
+<div id="outline-container-orgb2648b6" class="outline-3">
+<h3 id="orgb2648b6">Leadership</h3>
+<div class="outline-text-3" id="text-orgb2648b6">
 <p>
 Is somebody hurt? Did somebody die? No? Then we can fix it! - Walt Brown
 </p>
-</blockquote>
+</div>
+</div>
 
-</section>
-<section id="slide-org0699c7f">
-<h3 id="org0699c7f">Leadership</h3>
-<blockquote>
+<div id="outline-container-org89351d1" class="outline-3">
+<h3 id="org89351d1">Leadership</h3>
+<div class="outline-text-3" id="text-org89351d1">
 <p>
 Never complain and never explain. - Benjamin Disraeli
 </p>
-</blockquote>
+</div>
+</div>
 
-</section>
-<section id="slide-org700a22f">
-<h3 id="org700a22f">Leadership</h3>
-<blockquote>
+<div id="outline-container-org6ec3664" class="outline-3">
+<h3 id="org6ec3664">Leadership</h3>
+<div class="outline-text-3" id="text-org6ec3664">
 <p>
 Ever tried? Ever failed? No matter! Try again!! Fail better!!! - Samuel Beckett
 </p>
-</blockquote>
+</div>
+</div>
 
-</section>
-<section id="slide-orgf80c65b">
-<h3 id="orgf80c65b">Leadership</h3>
-<blockquote>
+<div id="outline-container-orga44df57" class="outline-3">
+<h3 id="orga44df57">Leadership</h3>
+<div class="outline-text-3" id="text-orga44df57">
 <p>
 80% of something good is better than a 100% of something bad - Roland Tritsch
 </p>
-</blockquote>
+</div>
+</div>
 
-
-</section>
-<section id="slide-org02ae49a">
-<h3 id="org02ae49a">Leadership</h3>
-<blockquote>
+<div id="outline-container-org5c18d06" class="outline-3">
+<h3 id="org5c18d06">Leadership</h3>
+<div class="outline-text-3" id="text-org5c18d06">
 <p>
 Do or do not do, there is no try! - Yoda
 </p>
-</blockquote>
+</div>
+</div>
 
-</section>
-<section id="slide-org17f8e7c">
-<h3 id="org17f8e7c">Leadership</h3>
-<blockquote>
+<div id="outline-container-org41c208f" class="outline-3">
+<h3 id="org41c208f">Leadership</h3>
+<div class="outline-text-3" id="text-org41c208f">
 <p>
 The three pillars of success: Have a sense of direction and
 purpose. Hire great people. Execute well. - Roland Tritsch
 </p>
-</blockquote>
+</div>
+</div>
 
-</section>
-<section id="slide-orgbbbec1e">
-<h3 id="orgbbbec1e">Leadership</h3>
-<blockquote>
+<div id="outline-container-org5a2891c" class="outline-3">
+<h3 id="org5a2891c">Leadership</h3>
+<div class="outline-text-3" id="text-org5a2891c">
 <p>
 Successful people do not want to be successful, they want to become
 successful. - Roland Tritsch
 </p>
-</blockquote>
+</div>
+</div>
 
-</section>
-<section id="slide-orgde11ed5">
-<h3 id="orgde11ed5">Leadership</h3>
-<blockquote>
+<div id="outline-container-org70e76c3" class="outline-3">
+<h3 id="org70e76c3">Leadership</h3>
+<div class="outline-text-3" id="text-org70e76c3">
 <p>
 Be kind. Be strong. Be happy. - Mark (Braggy) Bragg
 </p>
-</blockquote>
+</div>
+</div>
 
-</section>
-<section id="slide-orgf9d3d7a">
-<h3 id="orgf9d3d7a">Leadership</h3>
-<blockquote>
+<div id="outline-container-orgc6f2464" class="outline-3">
+<h3 id="orgc6f2464">Leadership</h3>
+<div class="outline-text-3" id="text-orgc6f2464">
 <p>
 Before you can lead, you have to learn how to follow! - ???
 </p>
-</blockquote>
+</div>
+</div>
 
-</section>
-<section id="slide-org4daef40">
-<h3 id="org4daef40">Leadership</h3>
-<blockquote>
+<div id="outline-container-org0bb2dbb" class="outline-3">
+<h3 id="org0bb2dbb">Leadership</h3>
+<div class="outline-text-3" id="text-org0bb2dbb">
 <p>
 Culture is what happens when you don't look! - ???
 </p>
-</blockquote>
+</div>
+</div>
 
-</section>
-<section id="slide-org7dede1d">
-<h3 id="org7dede1d">Leadership</h3>
-<blockquote>
+<div id="outline-container-orgc6e2f4a" class="outline-3">
+<h3 id="orgc6e2f4a">Leadership</h3>
+<div class="outline-text-3" id="text-orgc6e2f4a">
 <p>
 FAST. GOOD. CHEAP. Choose any two. - Common Project Scheduling Mantra
 </p>
-</blockquote>
+</div>
+</div>
 
-</section>
-<section id="slide-orgf318baa">
-<h3 id="orgf318baa">Leadership</h3>
-<blockquote>
+<div id="outline-container-orge0fe979" class="outline-3">
+<h3 id="orge0fe979">Leadership</h3>
+<div class="outline-text-3" id="text-orge0fe979">
 <p>
 Simple things should be simple, complex things should be POSSIBLE. - ???
 </p>
-</blockquote>
+</div>
+</div>
 
-</section>
-<section id="slide-org4b4f427">
-<h3 id="org4b4f427">Leadership</h3>
-<blockquote>
-<p>
-Do it! Do it right!! Do it right now!!! - ???
-</p>
-</blockquote>
-
-</section>
-<section id="slide-org079f1fa">
-<h3 id="org079f1fa">Leadership</h3>
-<blockquote>
+<div id="outline-container-orgf52fbb3" class="outline-3">
+<h3 id="orgf52fbb3">Leadership</h3>
+<div class="outline-text-3" id="text-orgf52fbb3">
 <p>
 Give me the strength to change the things I can change, the tolerance
 to accept the things I cannot change and the wisdom to destinguish
 between the two. - ???
 </p>
-</blockquote>
+</div>
+</div>
 
-</section>
-<section id="slide-orge578a11">
-<h3 id="orge578a11">Leadership</h3>
-<blockquote>
+<div id="outline-container-org01ee5d0" class="outline-3">
+<h3 id="org01ee5d0">Leadership</h3>
+<div class="outline-text-3" id="text-org01ee5d0">
 <p>
 Before software can be reusable it first has to be usable. - Ralph Johnson
 </p>
-</blockquote>
+</div>
+</div>
 
-</section>
-<section id="slide-org3536be5">
-<h3 id="org3536be5">Leadership</h3>
-<blockquote>
+<div id="outline-container-org3d06a4c" class="outline-3">
+<h3 id="org3d06a4c">Leadership</h3>
+<div class="outline-text-3" id="text-org3d06a4c">
 <p>
 No plan survives first contact with the enemy! - Helmuth von Moltke the Elder
 </p>
-</blockquote>
+</div>
+</div>
 
-</section>
-<section id="slide-org4e66e14">
-<h3 id="org4e66e14">Leadership</h3>
-<blockquote>
+<div id="outline-container-org1713b2f" class="outline-3">
+<h3 id="org1713b2f">Leadership</h3>
+<div class="outline-text-3" id="text-org1713b2f">
 <p>
 I have a dream! - Martin Luther King
 </p>
-</blockquote>
+</div>
+</div>
 
-</section>
-<section id="slide-org9770e1f">
-<h3 id="org9770e1f">Leadership</h3>
-<blockquote>
+<div id="outline-container-orgcbc8954" class="outline-3">
+<h3 id="orgcbc8954">Leadership</h3>
+<div class="outline-text-3" id="text-orgcbc8954">
 <p>
 Can we fix it? Yes, we can! - Bob the Builder
 </p>
-</blockquote>
+</div>
+</div>
 
-</section>
-<section id="slide-org61e0b68">
-<h3 id="org61e0b68">Leadership</h3>
-<blockquote>
+<div id="outline-container-orgc43cf79" class="outline-3">
+<h3 id="orgc43cf79">Leadership</h3>
+<div class="outline-text-3" id="text-orgc43cf79">
 <p>
 Always be useful! - Thomas the Tank-Engine
 </p>
-</blockquote>
+</div>
+</div>
 
-</section>
-<section id="slide-org5343c01">
-<h3 id="org5343c01">Leadership</h3>
-<blockquote>
+<div id="outline-container-orgdbe9f06" class="outline-3">
+<h3 id="orgdbe9f06">Leadership</h3>
+<div class="outline-text-3" id="text-orgdbe9f06">
 <p>
 If you know your why, you can endure any how! - Nietzsche
 </p>
-</blockquote>
+</div>
+</div>
 
-</section>
-<section id="slide-org678fa86">
-<h3 id="org678fa86">Wisdom</h3>
-<blockquote>
+<div id="outline-container-orgfc66106" class="outline-3">
+<h3 id="orgfc66106">Leadership</h3>
+<div class="outline-text-3" id="text-orgfc66106">
+<p>
+If you feel pain, you are alive. If you feel other people's pain, you
+are a human being. ― Leo Tolstoy
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgfa6fe5e" class="outline-3">
+<h3 id="orgfa6fe5e">Wisdom</h3>
+<div class="outline-text-3" id="text-orgfa6fe5e">
 <p>
 Simple is hard - Rich Hickey, Inventor of Clojure
 </p>
-</blockquote>
+</div>
+</div>
 
-</section>
-<section id="slide-org7940bd5">
-<h3 id="org7940bd5">Wisdom</h3>
-<blockquote>
+<div id="outline-container-org71287a8" class="outline-3">
+<h3 id="org71287a8">Wisdom</h3>
+<div class="outline-text-3" id="text-org71287a8">
 <p>
 Some people wish it would happen, some people want it to happen, some
 people make it happen - ???
 </p>
-</blockquote>
+</div>
+</div>
 
-</section>
-<section id="slide-org7a24f53">
-<h3 id="org7a24f53">Wisdom</h3>
-<blockquote>
+<div id="outline-container-orga396592" class="outline-3">
+<h3 id="orga396592">Wisdom</h3>
+<div class="outline-text-3" id="text-orga396592">
 <p>
 Give me the coffee and nobody gets hurt - ???
 </p>
-</blockquote>
+</div>
+</div>
 
-</section>
-<section id="slide-org2bc33bd">
-<h3 id="org2bc33bd">Wisdom</h3>
-<blockquote>
+<div id="outline-container-orga9d389f" class="outline-3">
+<h3 id="orga9d389f">Wisdom</h3>
+<div class="outline-text-3" id="text-orga9d389f">
 <p>
 Love all, trust (and respect) a few, do wrong to none. - William Shakespeare
 </p>
-</blockquote>
+</div>
+</div>
 
-</section>
-<section id="slide-org4e8e3a1">
-<h3 id="org4e8e3a1">Wisdom</h3>
-<blockquote>
+<div id="outline-container-orgdddc930" class="outline-3">
+<h3 id="orgdddc930">Wisdom</h3>
+<div class="outline-text-3" id="text-orgdddc930">
 <p>
 We are what we repeatedly do. Excellence, then, is not an act, but a
 habit. - Aristotle
 </p>
-</blockquote>
+</div>
+</div>
 
-</section>
-<section id="slide-org0a041c3">
-<h3 id="org0a041c3">Wisdom</h3>
-<blockquote>
+<div id="outline-container-org58f5b5a" class="outline-3">
+<h3 id="org58f5b5a">Wisdom</h3>
+<div class="outline-text-3" id="text-org58f5b5a">
+<p>
+Perfection (Beauty, Elegance, &#x2026;) is achieved, not when there is
+nothing more to add, but when there is nothing left to take away. -
+Antoine de Saint-Exupéry
+</p>
+</div>
+</div>
+
+<div id="outline-container-org5d2cbc8" class="outline-3">
+<h3 id="org5d2cbc8">Wisdom</h3>
+<div class="outline-text-3" id="text-org5d2cbc8">
+<p>
+Learn, earn, return: These are the 3 essential phases of life. - Alan
+Loy McGinnis
+</p>
+</div>
+</div>
+
+<div id="outline-container-orge209761" class="outline-3">
+<h3 id="orge209761">Wisdom</h3>
+<div class="outline-text-3" id="text-orge209761">
+<p>
+Simple is hard. - Rich Hickey
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgc81cf34" class="outline-3">
+<h3 id="orgc81cf34">Wisdom</h3>
+<div class="outline-text-3" id="text-orgc81cf34">
+<p>
+You cannot change the trajectory of a stationary object. - Andrew
+O'Sullivan
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgbb3a141" class="outline-3">
+<h3 id="orgbb3a141">Wisdom</h3>
+<div class="outline-text-3" id="text-orgbb3a141">
+<p>
+People, before Process and Problem. - Walt Brown
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgc20e7e1" class="outline-3">
+<h3 id="orgc20e7e1">Wisdom</h3>
+<div class="outline-text-3" id="text-orgc20e7e1">
+<p>
+Do it. Do it right. Do it right now. - Spencer W. Kimball 
+</p>
+</div>
+</div>
+
+<div id="outline-container-orga044810" class="outline-3">
+<h3 id="orga044810">Wisdom</h3>
+<div class="outline-text-3" id="text-orga044810">
+<p>
+Do it. Do it right. Do it better. - ???
+</p>
+</div>
+</div>
+
+<div id="outline-container-org1c262e1" class="outline-3">
+<h3 id="org1c262e1">Wisdom</h3>
+<div class="outline-text-3" id="text-org1c262e1">
+<p>
+If you are in hell &#x2026; don't stop walking!!! - Winston Churchill
+</p>
+</div>
+</div>
+
+<div id="outline-container-org30ec15c" class="outline-3">
+<h3 id="org30ec15c">Wisdom</h3>
+<div class="outline-text-3" id="text-org30ec15c">
+<p>
+Never waste a good crisis. - Winston Churchill
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgbd5b7b6" class="outline-3">
+<h3 id="orgbd5b7b6">Wisdom</h3>
+<div class="outline-text-3" id="text-orgbd5b7b6">
+<p>
+It's not that I do not like complexity. I do not like unnecessary
+complexity! - Roland Tritsch
+</p>
+</div>
+</div>
+
+<div id="outline-container-org2f2c5ea" class="outline-3">
+<h3 id="org2f2c5ea">Wisdom</h3>
+<div class="outline-text-3" id="text-org2f2c5ea">
+<p>
+Someone is sitting in the shade today because someone planted a tree a
+long time ago. - Warren Buffet
+</p>
+
+<p>
+The purpose of my life is to plant trees that I will not get to use. -
+Roland Tritsch
+</p>
+</div>
+</div>
+
+<div id="outline-container-org7bd63df" class="outline-3">
+<h3 id="org7bd63df">Wisdom</h3>
+<div class="outline-text-3" id="text-org7bd63df">
 <p>
 Knowledge is to know that tomatos are not a vegtable, but a
 fruit. Wisdom is not to put them into a fruit salad. - Brian
 O'Driscoll, Outside Center @ IRFU
 </p>
-</blockquote>
-
-</section>
-</section>
-<section>
-<section id="slide-orga109edc">
-<h2 id="orga109edc">Appendix - My life in pictures</h2>
-<div class="outline-text-2" id="text-orga109edc">
 </div>
-</section>
-<section id="slide-orgbcc2df7">
-<h3 id="orgbcc2df7">Roland</h3>
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/rolandtritsch/50356079442/in/dateposted/" title="bio"><img src="https://live.staticflickr.com/65535/50356079442_0e971f09d5_z.jpg" width="90%" alt="bio"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+</div>
+</div>
 
-</section>
-<section id="slide-org997e98c">
-<h3 id="org997e98c">I am a Software Craftsman</h3>
+<div id="outline-container-org5386513" class="outline-2">
+<h2 id="org5386513">Appendix - My life in pictures</h2>
+<div class="outline-text-2" id="text-org5386513">
+</div>
+<div id="outline-container-orgcd99f2f" class="outline-3">
+<h3 id="orgcd99f2f">Roland</h3>
+<div class="outline-text-3" id="text-orgcd99f2f">
+</div>
+</div>
 
-<div id="orga7baba7" class="figure">
+<div id="outline-container-orga77699e" class="outline-3">
+<h3 id="orga77699e">I am a Software Craftsman</h3>
+<div class="outline-text-3" id="text-orga77699e">
+
+<div id="org10f55b5" class="figure">
 <p><img src="images/aoc.png" alt="aoc.png" width="60%" />
 </p>
 </div>
-
-</section>
-<section id="slide-orga0811b3">
-<h3 id="orga0811b3">I am a Manager</h3>
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/rolandtritsch/27656832409/in/dateposted/" title="Roland the builder. Can we fix it? Yes we can."><img src="https://live.staticflickr.com/4729/27656832409_0380df4921_z.jpg" width="50%" alt="Roland the builder. Can we fix it? Yes we can."></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-
-</section>
-<section id="slide-orgdc7299f">
-<h3 id="orgdc7299f">I am a Father and a Husband</h3>
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/rolandtritsch/13282359884/in/dateposted/" title="The Family Selfie :) ..."><img src="https://live.staticflickr.com/2834/13282359884_8e66b5e0e1_z.jpg" width="70%" alt="The Family Selfie :) ..."></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-
-</section>
-<section id="slide-orgc98e904">
-<h3 id="orgc98e904">The Extreme Digital Nomad</h3>
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/rolandtritsch/49768700213/" title="The TEDN van"><img src="https://live.staticflickr.com/65535/49768700213_0c23e49354_z.jpg" width="60%" alt="The TEDN van"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-
-</section>
-<section id="slide-orgc4c3323">
-<h3 id="orgc4c3323">I am not (really) German</h3>
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/rolandtritsch/40195624745/in/dateposted/" title="My DNA heritage (no surprises here :))"><img src="https://live.staticflickr.com/786/40195624745_ff84e59f6f_z.jpg" width="50%" alt="My DNA heritage (no surprises here :))"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-
-</section>
-<section id="slide-orgea960fa">
-<h3 id="orgea960fa">I used to cycle :)</h3>
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/rolandtritsch/5601446934/in/dateposted/" title="A long time ago ... in a galaxy far, far away ..."><img src="https://live.staticflickr.com/5301/5601446934_1d3c807612_z.jpg" width="50%" alt="A long time ago ... in a galaxy far, far away ..."></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-
-</section>
-<section id="slide-org94a1e4e">
-<h3 id="org94a1e4e">Now I am hiking &#x2026;</h3>
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/rolandtritsch/8329468836/in/dateposted/" title="The view from Sugar Loaf"><img src="https://live.staticflickr.com/8221/8329468836_edbb886e90_n.jpg" width="50%" alt="The view from Sugar Loaf"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-
-</section>
-<section id="slide-org999435b">
-<h3 id="org999435b">&#x2026; and biking :)</h3>
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/rolandtritsch/3723472676/in/dateposted/" title="Cleaning the Ducati :)"><img src="https://live.staticflickr.com/2481/3723472676_f56ea1e98e_z.jpg" width="50%" alt="Cleaning the Ducati :)"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-
-</section>
-<section id="slide-org3f05f88">
-<h3 id="org3f05f88">My dad is one of my best friends</h3>
-<table><tr><td><a data-flickr-embed="true" href="https://www.flickr.com/photos/rolandtritsch/3962815013/in/dateposted/" title="A 44 years old picture"><img src="https://live.staticflickr.com/2470/3962815013_a23620c97e_n.jpg" width="100%" alt="A 44 years old picture"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></td><td><a data-flickr-embed="true" href="https://www.flickr.com/photos/rolandtritsch/3870401734/in/dateposted/" title="The captain of the Garadice"><img src="https://live.staticflickr.com/2556/3870401734_ebc0826974_n.jpg" width="100%" alt="The captain of the Garadice"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></td></tr></table>
-
-</section>
-<section id="slide-orga11171a">
-<h3 id="orga11171a">(Despite my life-style)<br>I have only one broken bone<br>(but lots of scars :))</h3>
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/rolandtritsch/8352786325/in/dateposted/" title="My first broken bone (little toe on the right foot :))"><img src="https://live.staticflickr.com/8196/8352786325_e01d364a2b_n.jpg" width="20%" alt="My first broken bone (little toe on the right foot :))"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-</section>
-</section>
 </div>
 </div>
-<script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script>
 
-<script>
-// Full list of configuration options available here:
-// https://github.com/hakimel/reveal.js#configuration
-Reveal.initialize({
-width:"60%",
+<div id="outline-container-org73642f0" class="outline-3">
+<h3 id="org73642f0">I am a Manager</h3>
+<div class="outline-text-3" id="text-org73642f0">
+</div>
+</div>
 
-// Optional libraries used to extend on reveal.js
-dependencies: [
- { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
- { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
- { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
- { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+<div id="outline-container-orge3f84fe" class="outline-3">
+<h3 id="orge3f84fe">I am a Father and a Husband</h3>
+<div class="outline-text-3" id="text-orge3f84fe">
+</div>
+</div>
 
-});
+<div id="outline-container-org25dd1bc" class="outline-3">
+<h3 id="org25dd1bc">The Extreme Digital Nomad</h3>
+<div class="outline-text-3" id="text-org25dd1bc">
+</div>
+</div>
 
-</script>
+<div id="outline-container-org9fff845" class="outline-3">
+<h3 id="org9fff845">I am not (really) German</h3>
+<div class="outline-text-3" id="text-org9fff845">
+</div>
+</div>
+
+<div id="outline-container-org3ead0e4" class="outline-3">
+<h3 id="org3ead0e4">I used to cycle :)</h3>
+<div class="outline-text-3" id="text-org3ead0e4">
+</div>
+</div>
+
+<div id="outline-container-org37fce17" class="outline-3">
+<h3 id="org37fce17">Now I am hiking &#x2026;</h3>
+<div class="outline-text-3" id="text-org37fce17">
+</div>
+</div>
+
+<div id="outline-container-orgda81ed5" class="outline-3">
+<h3 id="orgda81ed5">&#x2026; and biking :)</h3>
+<div class="outline-text-3" id="text-orgda81ed5">
+</div>
+</div>
+
+<div id="outline-container-orge900952" class="outline-3">
+<h3 id="orge900952">My dad is one of my best friends</h3>
+<div class="outline-text-3" id="text-orge900952">
+</div>
+</div>
+
+<div id="outline-container-org5c594fb" class="outline-3">
+<h3 id="org5c594fb">(Despite my life-style)<br>I have only one broken bone<br>(but lots of scars :))</h3>
+<div class="outline-text-3" id="text-org5c594fb">
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Roland Tritsch</p>
+<p class="date">Created: 2024-11-22 Fri 10:16</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
 </body>
 </html>
