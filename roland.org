@@ -520,7 +520,6 @@ Ever tried? Ever failed? No matter! Try again!! Fail better!!! - Samuel Beckett
 80% of something good is better than a 100% of something bad - Roland Tritsch
 #+REVEAL_HTML: </blockquote>
 
-
 ** Leadership
 
 #+REVEAL_HTML: <blockquote>
@@ -569,12 +568,6 @@ FAST. GOOD. CHEAP. Choose any two. - Common Project Scheduling Mantra
 
 #+REVEAL_HTML: <blockquote>
 Simple things should be simple, complex things should be POSSIBLE. - ???
-#+REVEAL_HTML: </blockquote>
-
-** Leadership
-
-#+REVEAL_HTML: <blockquote>
-Do it! Do it right!! Do it right now!!! - ???
 #+REVEAL_HTML: </blockquote>
 
 ** Leadership
@@ -663,8 +656,9 @@ habit. - Aristotle
 ** Wisdom
 
 #+REVEAL_HTML: <blockquote>
-Perfection is achieved, not when there is nothing more to add, but
-when there is nothing left to take away. - Antoine de Saint-Exupéry
+Perfection (Beauty, Elegance, ...) is achieved, not when there is
+nothing more to add, but when there is nothing left to take away. -
+Antoine de Saint-Exupéry
 #+REVEAL_HTML: </blockquote>
 
 ** Wisdom
@@ -672,6 +666,56 @@ when there is nothing left to take away. - Antoine de Saint-Exupéry
 #+REVEAL_HTML: <blockquote>
 Learn, earn, return: These are the 3 essential phases of life. - Alan
 Loy McGinnis
+#+REVEAL_HTML: </blockquote>
+
+** Wisdom
+
+#+REVEAL_HTML: <blockquote>
+Simple is hard. - Rich Hickey
+#+REVEAL_HTML: </blockquote>
+
+** Wisdom
+
+#+REVEAL_HTML: <blockquote>
+You cannot change the trajectory of a stationary object. - Andrew
+O'Sullivan
+#+REVEAL_HTML: </blockquote>
+
+** Wisdom
+
+#+REVEAL_HTML: <blockquote>
+People, before Process and Problem. - Walt Brown
+#+REVEAL_HTML: </blockquote>
+
+** Wisdom
+
+#+REVEAL_HTML: <blockquote>
+Do it. Do it right. Do it right now. - Spencer W. Kimball 
+#+REVEAL_HTML: </blockquote>
+
+** Wisdom
+
+#+REVEAL_HTML: <blockquote>
+Do it. Do it right. Do it better. - ???
+#+REVEAL_HTML: </blockquote>
+
+** Wisdom
+
+#+REVEAL_HTML: <blockquote>
+If you are in hell ... don't stop walking!!! - Winston Churchill
+#+REVEAL_HTML: </blockquote>
+
+** Wisdom
+
+#+REVEAL_HTML: <blockquote>
+Never waste a good crisis. - Winston Churchill
+#+REVEAL_HTML: </blockquote>
+
+** Wisdom
+
+#+REVEAL_HTML: <blockquote>
+It's not that I do not like complexity. I do not like unnecessary
+complexity! - Roland Tritsch
 #+REVEAL_HTML: </blockquote>
 
 ** Wisdom
