@@ -150,11 +150,11 @@ What you can expect from me and what I expect from you
 
 - Build and own/operate functional (minimal) systems, that solve a problem (that needs solving)
 - Build with functional programming languages
-- Build gardens, not jungles (managable cost of ownership)
+- Build [[http://tedn.life/reveal-iceberg/iceberg.html][gardens]], not jungles (manage the iceberg (the cost of ownership))
 
 ** I am a Software Craftsman
 
-- My dad is a craftsman (toolsmith). I learned early in life ...
+- My [[https://flic.kr/p/73bsQM][dad]] is a craftsman (toolsmith). I learned early in life ...
   - ... that you plan, execute, clean/sharpen the tools, rinse and repeat
   - ... to sign my work (it needs to be beautiful; you need to be proud of it)
   - ... that the quality of the tools and material and the level of the craftmanship determines the quality of what you build
@@ -187,7 +187,6 @@ What you can expect from me and what I expect from you
 - [[https://www.linkedin.com/in/rolandtritsch/][Linked-In]]
 - [[https://www.flickr.com/photos/rolandtritsch][Flickr]]
 - [[https://github.com/rolandtritsch][GitHub]]
-- [[https://www.instagram.com/theextremedigitalnomad/][TheExtremeDigitalNomad]]
 
 ** Blogs/Thoughts
 
