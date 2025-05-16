@@ -12,7 +12,7 @@
 
 To speed up the learning (how to work together) ...
 
-Shorten the time to get to an understanding how good and right looks like ...
+Shorten the time to get to an understanding how good and right looks like (for/to both of us) ...
 
 #+REVEAL_HTML: <div class="column" style="float: left; width: 60%">
 - Who is Roland?
@@ -22,6 +22,13 @@ Shorten the time to get to an understanding how good and right looks like ...
 #+REVEAL_HTML: </div>
 
 #+REVEAL_HTML: <div class="column" style="float: right; width: 40%"><img src="./images/roland-tritsch-exec.png" width="80%"/></div>
+
+#+BEGIN_NOTES
+
+- More on the purpose, background, context-setting, ...
+- Risk to appear ego-centric
+  
+#+END_NOTES
 
 ** BTW ... Do one for yourself!!!
 
@@ -35,6 +42,12 @@ Shorten the time to get to an understanding how good and right looks like ...
 
 ... that I am very good at helping people to discover and develop
 their superpower(s).
+
+#+BEGIN_NOTES
+
+- How did you discover this?
+
+#+END_NOTES
 
 * Who is Roland?
 
@@ -117,6 +130,13 @@ their superpower(s).
 
 #+REVEAL_HTML: <div class="column" style="float: right; width: 40%"><img src="./images/mbti.png" width="90%"/></div>
 
+#+BEGIN_NOTES
+
+- Arguably not scientific ...
+- Risk of poeple thinking that you do not value ... "Ngour"
+
+#+END_NOTES
+
 ** MBTI - Bob & Tom
 
 #+REVEAL_HTML: <div class="column" style="float: left; width: 50%; display: inline-block; vertical-align: middle"><img src="./images/bob.png" width="78%"/><center><b>Can we do/fix it? Yes, we can!</b></center></div>
@@ -132,7 +152,13 @@ their superpower(s).
 - Sees innovation as a necessity
   - Being different/unique is good/valueable
 - Boundless energy. Multi-purpose weapon
-- A natural go-getter with a great enthusiasm for life 
+- A natural go-getter with a great enthusiasm for life
+
+#+BEGIN_NOTES
+
+- Boundless/Positive engery ... can be good ... and bad!
+
+#+END_NOTES
 
 *** DISC - Weaknesses ...
 
@@ -141,6 +167,13 @@ their superpower(s).
 - Overly dismissive of negative feedback
   - Being critical (in a good way) is perceived as being negative
 - Doesn't always take time to hear others views
+
+#+BEGIN_NOTES
+
+- I am authentic
+- I am/can be a bad listener 
+
+#+END_NOTES
 
 *** DISC - Possible Blindspots ...
 
@@ -203,7 +236,7 @@ objectives - Jeff Weiner, CEO @ Linked-In
 
 - ... (too) action-oriented ...
 - ... loud & obnoxious ...
-- ... impatient & hot-tempered ...
+- ... impatient & (at times) short-/hot-tempered ...
 - ... and I need to use some of my energy to moderate that!
 
 ** Means ...
@@ -224,9 +257,9 @@ objectives - Jeff Weiner, CEO @ Linked-In
 
 * Expectations
 
-You should always know why what you do matters. You should always feel
-a sense of purpose. You should always know what we are doing and why
-we are doing it
+You can expect that at all times I will work hard to ensure that know why what you do matters. You
+should always feel a sense of purpose. You should always know what we are doing and why we are doing
+it
 
 ** Yours & Mine
 
@@ -254,10 +287,18 @@ What you can expect from me and what I expect from you
 
 - To build relationships and organisations based on trust and
   respect
-- Work-/Life-Harmony (I do not like Work-/Live-Balance)
+- Work-/Life-Harmony (not Work-/Live-Balance)
 - Grit, showing up, hard work (doing what's right, not what's
   easy/popular), ...
 - Talking to each other, not about each other, ...
+
+#+BEGIN_NOTES
+
+- Work-/Life-Harmony: Work every day for 4-8 hours
+  - My mission is my second child
+  - My people are my family
+
+#+END_NOTES
 
 ** I like ...
 
@@ -268,6 +309,12 @@ What you can expect from me and what I expect from you
   - Say what you do & Do what you say
   - I f...ed-up ... and here is what I learned and what I am going to
     do about it
+
+#+BEGIN_NOTES
+
+- People that want to do the right thing vs. people who want to be right
+
+#+END_NOTES
 
 ** I like ...
 
@@ -299,6 +346,15 @@ What you can expect from me and what I expect from you
   - Execute on the first step/time-unit
   - Rinse and repeat
 
+#+BEGIN_NOTES
+
+More likes ...
+
+- Articulated; Clarity of communication
+- Async (written) vs. sync (meeting)
+
+#+END_NOTES
+
 ** I like ...
 
 - Cameradery ...
@@ -320,6 +376,14 @@ What you can expect from me and what I expect from you
 - ... to be effective and efficient (I do not like waste of time,
   engergy and money; e.g. bad meetings)
 - ... decency, ambition and competence
+
+#+BEGIN_NOTES
+
+- Bias towards meetings to either review & discuss a document or to make a decision
+- Meeting must have an agenda and reading material
+- And a reason why the meeting happens (and a measurable outcome (was it a good meeting ... or not))
+
+#+END_NOTES
 
 ** I like ...
 
@@ -345,11 +409,24 @@ What you can expect from me and what I expect from you
 - ... to try a lot and keep what works
 - ... to fail forward
 
+#+BEGIN_NOTES
+
+- Maturity (in the relationships) to call out people (in private) when they do not play by the rules
+
+#+END_NOTES
+
+
 ** I like ...
 
 - ... people with a growth-mindset
 - ... poeple with no ego (or at least people, who know how to manage
   their ego)
+
+#+BEGIN_NOTES
+
+- Ownership
+
+#+END_NOTES
 
 ** I dislike ...
 
@@ -366,6 +443,12 @@ What you can expect from me and what I expect from you
 - Build with functional programming languages
 - Build gardens, not jungles (managable cost of ownership)
 
+#+BEGIN_NOTES
+
+- (Is there a risk that) You put yourself on the critical path?
+
+#+END_NOTES
+
 ** I am a Software Craftsman
 
 - My dad is a craftsman (toolsmith). I learned early in life ...
@@ -378,6 +461,12 @@ What you can expect from me and what I expect from you
 - Building functional teams (were people trust and respect each other)
 - Building (remote-first) places where great engineers can do there best work
 - Help people to find/discover their superpower (everybody got one) and develop it
+
+#+BEGIN_NOTES
+
+- I care. About people. The mission. The customers. The company.
+
+#+END_NOTES
 
 ** I am a Leader
 
@@ -427,7 +516,7 @@ What you can expect from me and what I expect from you
 ** I am ...
 
 - A worried and realistic optimist
-- The nicest slave driver you have ever worked for
+- The nicest "pushy person" you have ever worked for
 - WIP :) 
 - ???
   
@@ -443,7 +532,7 @@ What you can expect from me and what I expect from you
 - (Unnecessarily) Waste ... time, energy, money, ...
   - Because ... I like to be effective/efficient (more than right and fast)
   - Because ... I like to work as hard as it needs to be (but not harder)
-- (As a symbol) Not wearing a headset ...
+- (As a symbol) Not wearing a headset (on a call) ...
   - Because ... I perceive it as a lack of care (caring how hard it is to
     hear/understand you)
 
@@ -703,12 +792,6 @@ Do it. Do it right. Do it better. - ???
 
 #+REVEAL_HTML: <blockquote>
 If you are in hell ... don't stop walking!!! - Winston Churchill
-#+REVEAL_HTML: </blockquote>
-
-** Wisdom
-
-#+REVEAL_HTML: <blockquote>
-Never waste a good crisis. - Winston Churchill
 #+REVEAL_HTML: </blockquote>
 
 ** Wisdom
