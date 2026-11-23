@@ -1,53 +1,22 @@
 #+title: Roland
-#+subtitle: THE User Manual
+#+subtitle: Meet and Greet
 #+date: <2024-11-01>
 #+author: Roland Tritsch
 #+email: roland@tritsch.email
-#+options: timestamp:t date:nil title:t author:t
+#+OPTIONS: title:nil author:nil email:nil date:nil timestamp:nil
+#+REVEAL_TITLE_SLIDE: <h1 class=title>%t</h1><h3 class=subtitle>%s</h3><h4 class=author>%a</h4><h4 class=email>%e</h4>
 #+options: toc:nil num:nil
 #+reveal_theme: beige
-#+reveal_init_options: width:"60%"
+#+REVEAL_VERSION: 4
+#+OPTIONS: reveal_width:1280 reveal_height:720 reveal_slide_number:c/t
+#+REVEAL_MARGIN: 0.06
+#+REVEAL_PLUGINS: (notes highlight)
 
-* User Manual?!?! Why?
-
-To speed up the learning (how to work together) ...
-
-Shorten the time to get to an understanding how good and right looks like (for/to both of us) ...
-
-#+REVEAL_HTML: <div class="column" style="float: left; width: 60%">
-- Who is Roland?
-- What does Roland like/dislike when working together?
-- What I expect and what you can expect!
-- How to help Roland, so that he can help you?
-#+REVEAL_HTML: </div>
-
-#+REVEAL_HTML: <div class="column" style="float: right; width: 40%"><img src="./images/roland-tritsch-exec.png" width="80%"/></div>
-
-#+BEGIN_NOTES
-
-- More on the purpose, background, context-setting, ...
-- Risk to appear ego-centric
-  
-#+END_NOTES
-
-** BTW ... Do one for yourself!!!
-
-** Your Introduction
+* Your Introduction
 
 - What do you do?
 - Why are you here?
 - What is your superpower?
-
-** My Superpower is ...
-
-... that I am very good at helping people to discover and develop
-their superpower(s).
-
-#+BEGIN_NOTES
-
-- How did you discover this?
-
-#+END_NOTES
 
 * Who is Roland?
 
@@ -130,79 +99,6 @@ their superpower(s).
 
 #+REVEAL_HTML: <div class="column" style="float: right; width: 40%"><img src="./images/mbti.png" width="90%"/></div>
 
-#+BEGIN_NOTES
-
-- Arguably not scientific ...
-- Risk of poeple thinking that you do not value ... "Ngour"
-
-#+END_NOTES
-
-** MBTI - Bob & Tom
-
-#+REVEAL_HTML: <div class="column" style="float: left; width: 50%; display: inline-block; vertical-align: middle"><img src="./images/bob.png" width="78%"/><center><b>Can we do/fix it? Yes, we can!</b></center></div>
-
-#+REVEAL_HTML: <div class="column" style="float: right; width: 50%; display: inline-block; vertical-align: middle"><img src="./images/tom.png"/><center><b>Always be useful!!!</b></center></div>
-
-** [[https://drive.google.com/open?id=0B27uLCKisOleSHk4cG5aOEVCWUk][DISC]] - Motivating Director
-
-#+REVEAL_HTML: <img src="./images/disc.png" width="50%"/>
-
-*** DISC - Strength ...
-
-- Sees innovation as a necessity
-  - Being different/unique is good/valueable
-- Boundless energy. Multi-purpose weapon
-- A natural go-getter with a great enthusiasm for life
-
-#+BEGIN_NOTES
-
-- Boundless/Positive engery ... can be good ... and bad!
-
-#+END_NOTES
-
-*** DISC - Weaknesses ...
-
-- Leaps before he looks
-  - Tendency to see things more positive then they are
-- Overly dismissive of negative feedback
-  - Being critical (in a good way) is perceived as being negative
-- Doesn't always take time to hear others views
-
-#+BEGIN_NOTES
-
-- I am authentic
-- I am/can be a bad listener 
-
-#+END_NOTES
-
-*** DISC - Possible Blindspots ...
-
-- He is seen to perform better when he reins in his boldness, energy
-  and enjoyment of being in control to a level where other people take
-  priority. He is a born entrepreneur who is constantly overselling
-  his next great idea and attempting to generate support for it. He
-  may rely on personal forcefulness and, if necessary, intimidation to
-  achieve his aims
-- As he values creativity and innovation, he sometimes ignores the
-  standard way of doing something because it lacks originality
-
-*** DISC - Ideal Environment ...
-
-- He continuously contributes to organisational improvement
-  (building/developing people)
-- Activities, variety and change are constantly taking place
-- He can turn a vision (a big idea) into reality 
-
-** Ego State
-
-#+REVEAL_HTML: <div class="column" style="float: left; width: 60%">
-- Balanced (most of the time)
-- Strong child ego
-- CTO, playing, learning, taking risk, falling (and getting up again), curious, ...
-#+REVEAL_HTML: </div>
-
-#+REVEAL_HTML: <div class="column" style="float: right; width: 40%"><img src="./images/ego.jpeg" width="100%"/></div>
-
 ** Leadership
 
 #+REVEAL_HTML: <blockquote>
@@ -219,47 +115,16 @@ Leadership is the ability to inspire others to deliver on shared
 objectives - Jeff Weiner, CEO @ Linked-In
 #+REVEAL_HTML: </blockquote>
 
-** I am good at/I like to ...
+** My Superpower is ...
 
-#+REVEAL_HTML: <div class="column" style="float: left; width: 60%">
-- Building and running functional teams and functional systems
-- Making engineers grow (put value on CVs) and users smile (deliver
-  value to customers)
-- Find and articulate a mission that makes a difference, attract and
-  retain great people and then … execute!
-- Raising the bar!
-#+REVEAL_HTML: </div>
-
-#+REVEAL_HTML: <div class="column" style="float: right; width: 40%"><img src="./images/raise.png" width="80%"/></div>
-
-** (Naturally) I am/can be ...
-
-- ... (too) action-oriented ...
-- ... loud & obnoxious ...
-- ... impatient & (at times) short-/hot-tempered ...
-- ... and I need to use some of my energy to moderate that!
-
-** Means ...
-
-#+REVEAL_HTML: <div class="column" style="float: left; width: 50%">
-... when I am running low on energy or when I am tired ... sooner or later/occasionally ... somebody has to sing a lullaby!!!
-#+REVEAL_HTML: </div>
-
-#+REVEAL_HTML: <div class="column" style="float: right; width: 50%"><img src="./images/hulk.png"></div>
-
-** I (also) need help with ...
-- ... diving into the details!
-- ... turning a strategy into tactics!
-- ... listening (talking too much)!
-- ... going slow (to go faster)!
-  - Judging too early/fast
-  - (Sometimes) Missing information
+... that I am very good at helping people to discover and develop
+their superpower(s).
 
 * Expectations
 
-You can expect that at all times I will work hard to ensure that know why what you do matters. You
-should always feel a sense of purpose. You should always know what we are doing and why we are doing
-it
+You should always know why what you do matters. You should always feel
+a sense of purpose. You should always know what we are doing and why
+we are doing it
 
 ** Yours & Mine
 
@@ -283,175 +148,17 @@ What you can expect from me and what I expect from you
 
 #+REVEAL_HTML: <a data-flickr-embed="true" href="https://www.flickr.com/photos/rolandtritsch/11734671183/in/dateposted/" title="The force is strong in this one"><img src="https://live.staticflickr.com/7345/11734671183_21ddacc2c0_n.jpg" width="20%" alt="The force is strong in this one"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
-* Appendix - (More of what) I like ...
-
-- To build relationships and organisations based on trust and
-  respect
-- Work-/Life-Harmony (not Work-/Live-Balance)
-- Grit, showing up, hard work (doing what's right, not what's
-  easy/popular), ...
-- Talking to each other, not about each other, ...
-
-#+BEGIN_NOTES
-
-- Work-/Life-Harmony: Work every day for 4-8 hours
-  - My mission is my second child
-  - My people are my family
-
-#+END_NOTES
-
-** I like ...
-
-- No surprises
-  - I will miss the deadline next week vs. I will miss the deadline
-    tomorrow
-- Ownership & accountability
-  - Say what you do & Do what you say
-  - I f...ed-up ... and here is what I learned and what I am going to
-    do about it
-
-#+BEGIN_NOTES
-
-- People that want to do the right thing vs. people who want to be right
-
-#+END_NOTES
-
-** I like ...
-
-- Being on time, being reliable, say-what-you-do/do-what-you-say,
-  making promises and keeping them (and if not ... appologize, learn
-  ... and move on), ...
-- Productive friction, disagree and commit, radical candor, ...
-- Do the right thing and do it right and do it right now
-- Building a place where great engineers can do their best work
-  - Where ... talent meets passion and purpose
-  - Where ... mastery meets autonomy and purpose
-  - Where ... accountability meets autonomy and authority
-
-** I like ...
-
-- Good hiring
-  - Nice/decent, humble/ego-less, intelligent people
-  - That like to solve problems (and are good at it)
-  - With good judgement (and a lot of common sense)
-  - And good desicion making skills (using groups of people) (and that
-    are passionate about software engineering and writing good,
-    maintainable code) (and that have a [[https://www.youtube.com/watch?v=KUWn_TJTrnU][growth mindset]])
-
-** I like ...
-
-- Strategic thinking/planning
-  - Develop a sense of direction
-    - ... for the next N steps/time-units
-  - Execute on the first step/time-unit
-  - Rinse and repeat
-
-#+BEGIN_NOTES
-
-More likes ...
-
-- Articulated; Clarity of communication
-- Async (written) vs. sync (meeting)
-
-#+END_NOTES
-
-** I like ...
-
-- Cameradery ...
-  - we are in it together
-  - we have each others back
-- ... to be useful
-- ... to complement (not compete)
-  - be the oil in the gearbox
-  - be(come) the missing puzzle-piece
-- Big/relevant/important ideas/projects/work
-  - ... which (sometimes) makes me go into a direction where I try to
-    boil the ocean.
-
-** I like ...
-
-- Progress over perfection
-- Like/prefer to be the lowest performing team member in an A-team rather than the top performer in a B-team
-- Headsets/Good-Audio
-- ... to be effective and efficient (I do not like waste of time,
-  engergy and money; e.g. bad meetings)
-- ... decency, ambition and competence
-
-#+BEGIN_NOTES
-
-- Bias towards meetings to either review & discuss a document or to make a decision
-- Meeting must have an agenda and reading material
-- And a reason why the meeting happens (and a measurable outcome (was it a good meeting ... or not))
-
-#+END_NOTES
-
-** I like ...
-
-- ... being on-time (being professional)
-- ... being effective/efficient (do not waste time, money, energy
-  (unnecessarily))
-- ... cameradery (a/the feeling of being in it together; building
-  teams that trust and respect each other)
-
-** I like ...
-
-- ... to be kind (not nice; embrace radical candor and productive
-  friction)
-  - Build safe places, where you can (respectfully) disagree with each
-    other (but then also disagree-and-commit)
-- ... (wired) headsets (I do not need a headset, I can hear you well)
-
-** I like ...
-
-- ... competence (expertise + experience + intelligence)
-- ... building beautiful, impactful things/systems
-- ... say what you do, do what you say (no surprises)
-- ... to try a lot and keep what works
-- ... to fail forward
-
-#+BEGIN_NOTES
-
-- Maturity (in the relationships) to call out people (in private) when they do not play by the rules
-
-#+END_NOTES
-
-
-** I like ...
-
-- ... people with a growth-mindset
-- ... poeple with no ego (or at least people, who know how to manage
-  their ego)
-
-#+BEGIN_NOTES
-
-- Ownership
-
-#+END_NOTES
-
-** I dislike ...
-
-- ... making no mistakes (means we are not pushing hard enough)
-- ... making mistakes twice (means we are not learning fast enough)
-- ... when ego(s) (mine or others) get in the way of moving fast
-  and/or doing something that is good and right
-
 * Appendix - (More about) Roland
 
 ** I am a Software Craftsman
 
 - Build and own/operate functional (minimal) systems, that solve a problem (that needs solving)
 - Build with functional programming languages
-- Build gardens, not jungles (managable cost of ownership)
-
-#+BEGIN_NOTES
-
-- (Is there a risk that) You put yourself on the critical path?
-
-#+END_NOTES
+- Build [[http://tedn.life/reveal-iceberg/iceberg.html][gardens]], not jungles (manage the iceberg (the cost of ownership))
 
 ** I am a Software Craftsman
 
-- My dad is a craftsman (toolsmith). I learned early in life ...
+- My [[https://flic.kr/p/73bsQM][dad]] is a craftsman (toolsmith). I learned early in life ...
   - ... that you plan, execute, clean/sharpen the tools, rinse and repeat
   - ... to sign my work (it needs to be beautiful; you need to be proud of it)
   - ... that the quality of the tools and material and the level of the craftmanship determines the quality of what you build
@@ -461,12 +168,6 @@ More likes ...
 - Building functional teams (were people trust and respect each other)
 - Building (remote-first) places where great engineers can do there best work
 - Help people to find/discover their superpower (everybody got one) and develop it
-
-#+BEGIN_NOTES
-
-- I care. About people. The mission. The customers. The company.
-
-#+END_NOTES
 
 ** I am a Leader
 
@@ -490,7 +191,6 @@ More likes ...
 - [[https://www.linkedin.com/in/rolandtritsch/][Linked-In]]
 - [[https://www.flickr.com/photos/rolandtritsch][Flickr]]
 - [[https://github.com/rolandtritsch][GitHub]]
-- [[https://www.instagram.com/theextremedigitalnomad/][TheExtremeDigitalNomad]]
 
 ** Blogs/Thoughts
 
@@ -512,29 +212,6 @@ More likes ...
 - The Pragmatic Programmer - Andrew Hunt and David Thomas
 - Building a MicroService - Sam Newman
 - ... more
-
-** I am ...
-
-- A worried and realistic optimist
-- The nicest "pushy person" you have ever worked for
-- WIP :) 
-- ???
-  
-** I will ...
-
-- Keep on giving you work until you say stop
-  - And saying stop is totally acceptable
-
-** Buttons **not** to push ...
-
-- Try(ing) to manage, handle, manipulate, ... me
-  - Instead ... use the front door!
-- (Unnecessarily) Waste ... time, energy, money, ...
-  - Because ... I like to be effective/efficient (more than right and fast)
-  - Because ... I like to work as hard as it needs to be (but not harder)
-- (As a symbol) Not wearing a headset (on a call) ...
-  - Because ... I perceive it as a lack of care (caring how hard it is to
-    hear/understand you)
 
 * Appendix - Quotes
 
@@ -792,6 +469,12 @@ Do it. Do it right. Do it better. - ???
 
 #+REVEAL_HTML: <blockquote>
 If you are in hell ... don't stop walking!!! - Winston Churchill
+#+REVEAL_HTML: </blockquote>
+
+** Wisdom
+
+#+REVEAL_HTML: <blockquote>
+Never waste a good crisis. - Winston Churchill
 #+REVEAL_HTML: </blockquote>
 
 ** Wisdom
